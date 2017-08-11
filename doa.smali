@@ -1,0 +1,160 @@
+.class final Ldoa;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lfwc;
+
+
+# instance fields
+.field public final a:Lfwj;
+
+.field public final b:Lfyr;
+
+.field public final c:I
+
+.field public final d:Landroid/view/Surface;
+
+.field public final e:Lhha;
+
+.field private f:Lfxy;
+
+
+# direct methods
+.method constructor <init>(Lhha;Lhob;Lfwj;)V
+    .locals 3
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-interface {p2}, Lhob;->d()I
+
+    move-result v0
+
+    const/4 v1, 0x2
+
+    if-le v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    invoke-static {v0}, Lcw;->a(Z)V
+
+    iput-object p1, p0, Ldoa;->e:Lhha;
+
+    new-instance v0, Lhhz;
+
+    invoke-interface {p2}, Lhob;->a()I
+
+    move-result v1
+
+    invoke-interface {p2}, Lhob;->b()I
+
+    move-result v2
+
+    invoke-direct {v0, v1, v2}, Lhhz;-><init>(II)V
+
+    invoke-interface {p2}, Lhob;->c()I
+
+    iput-object p3, p0, Ldoa;->a:Lfwj;
+
+    invoke-interface {p2}, Lhob;->d()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x2
+
+    iput v0, p0, Ldoa;->c:I
+
+    new-instance v0, Lfxy;
+
+    iget v1, p0, Ldoa;->c:I
+
+    invoke-direct {v0, v1}, Lfxy;-><init>(I)V
+
+    iput-object v0, p0, Ldoa;->f:Lfxy;
+
+    new-instance v0, Lfyr;
+
+    iget-object v1, p0, Ldoa;->f:Lfxy;
+
+    invoke-direct {v0, v1}, Lfyr;-><init>(Lfyz;)V
+
+    iput-object v0, p0, Ldoa;->b:Lfyr;
+
+    iget-object v0, p0, Ldoa;->e:Lhha;
+
+    iget-object v1, p0, Ldoa;->f:Lfxy;
+
+    invoke-virtual {v0, v1}, Lhha;->a(Lhhy;)Lhhy;
+
+    invoke-interface {p2}, Lhob;->e()Landroid/view/Surface;
+
+    move-result-object v0
+
+    iput-object v0, p0, Ldoa;->d:Landroid/view/Surface;
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method public final a()I
+    .locals 1
+
+    iget v0, p0, Ldoa;->c:I
+
+    return v0
+.end method
+
+.method public final varargs a([Lfwc;)Lfwa;
+    .locals 6
+
+    new-instance v2, Ljava/util/HashSet;
+
+    invoke-direct {v2}, Ljava/util/HashSet;-><init>()V
+
+    invoke-interface {v2, p0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    array-length v3, p1
+
+    const/4 v0, 0x0
+
+    move v1, v0
+
+    :goto_0
+    if-ge v1, v3, :cond_0
+
+    aget-object v0, p1, v1
+
+    instance-of v4, v0, Ldoa;
+
+    const-string v5, "ImageReader ImageSources can only be combined with other ImageReaderImageSources of the same type"
+
+    invoke-static {v4, v5}, Lcw;->a(ZLjava/lang/Object;)V
+
+    check-cast v0, Ldoa;
+
+    invoke-interface {v2, v0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    add-int/lit8 v0, v1, 0x1
+
+    move v1, v0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Ldob;
+
+    new-instance v1, Ljava/util/ArrayList;
+
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    invoke-direct {v0, v1}, Ldob;-><init>(Ljava/util/List;)V
+
+    return-object v0
+.end method
