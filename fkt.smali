@@ -738,11 +738,15 @@
 
     sget-object v0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
+    const-string v0, "Google"
+
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
     sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
+
+    const-string v0, "muskie"
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 

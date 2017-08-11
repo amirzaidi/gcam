@@ -594,6 +594,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_3
 
     :cond_2
@@ -721,6 +723,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_9
 
     :cond_7
@@ -793,6 +797,8 @@
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v0
+
+    const/4 v0, 0x1
 
     if-eqz v0, :cond_c
 
@@ -931,6 +937,8 @@
 
     move-result v0
 
+    const/4 v0, 0x0
+
     if-eqz v0, :cond_f
 
     iget-object v0, p0, Ldev;->d:Lcom/google/android/apps/camera/config/GservicesHelper;
@@ -967,6 +975,8 @@
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->isNexus6()Z
 
     move-result v0
+
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_10
 
@@ -1172,6 +1182,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_16
 
     invoke-interface {p2}, Lftf;->x()Z
@@ -1224,6 +1236,8 @@
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v0
+
+    const/4 v0, 0x1
 
     if-eqz v0, :cond_17
 
@@ -1381,6 +1395,8 @@
     move-result-object v0
 
     goto/16 :goto_0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x0

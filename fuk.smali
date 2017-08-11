@@ -22,8 +22,8 @@
 
 
 # virtual methods
-.method public final a(Lhnp;)V
-    .locals 6
+.method public final a(Lhls;Lhnp;)V
+    .locals 7
 
     const/16 v4, 0x23
 

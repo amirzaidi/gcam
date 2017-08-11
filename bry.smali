@@ -2317,6 +2317,8 @@
 
     move-result v1
 
+    const/4 v1, 0x1
+
     if-eqz v1, :cond_1
 
     :cond_0
@@ -12242,6 +12244,8 @@
     :cond_1
     :try_start_0
     sget-object v0, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
+
+    const-string v0, "muskie"
 
     const-string v1, "sdk_google"
 

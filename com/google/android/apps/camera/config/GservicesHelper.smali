@@ -52,6 +52,8 @@
 
     move-result v1
 
+    const/4 v1, 0x0
+
     if-eqz v1, :cond_0
 
     const-string v0, "2592x1458"
@@ -121,6 +123,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_1
 
     :cond_0
@@ -164,6 +168,8 @@
 
     move-result v0
 
+    const/4 v0, 0x0
+
     if-nez v0, :cond_0
 
     iget-object v0, p0, Lcom/google/android/apps/camera/config/GservicesHelper;->b:Lcom/google/android/apps/camera/util/ApiHelper;
@@ -204,6 +210,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_1
 
     :cond_0
@@ -236,6 +244,8 @@
     invoke-virtual {v3}, Lcom/google/android/apps/camera/util/ApiHelper;->isNexus6()Z
 
     move-result v3
+
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_0
 
@@ -279,6 +289,8 @@
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v0
+
+    const/4 v0, 0x1
 
     if-eqz v0, :cond_2
 
@@ -392,6 +404,8 @@
 
     move-result v2
 
+    const/4 v2, 0x1
+
     if-nez v2, :cond_0
 
     move v0, v1
@@ -470,6 +484,8 @@
 
     move-result v1
 
+    const/4 v1, 0x1
+
     if-eqz v1, :cond_0
 
     shl-int/lit8 v0, v0, 0x2
@@ -543,6 +559,8 @@
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v0
+
+    const/4 v0, 0x1
 
     if-eqz v0, :cond_1
 

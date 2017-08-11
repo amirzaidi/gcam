@@ -144,6 +144,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_6
 
     sget-object v0, Ldem;->e:Ldem;
@@ -206,6 +208,8 @@
     invoke-virtual {v1}, Lcom/google/android/apps/camera/util/ApiHelper;->isNexus6()Z
 
     move-result v1
+
+    const/4 v1, 0x0
 
     if-nez v1, :cond_a
 
@@ -290,6 +294,8 @@
     move-result-object v0
 
     sget-object v2, Landroid/os/Build;->DEVICE:Ljava/lang/String;
+
+    const-string v2, "muskie"
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 

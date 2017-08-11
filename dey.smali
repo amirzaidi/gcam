@@ -416,6 +416,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_1
 
     invoke-interface {p2}, Lftf;->x()Z
@@ -468,6 +470,8 @@
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v0
+
+    const/4 v0, 0x1
 
     if-eqz v0, :cond_2
 

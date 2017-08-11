@@ -92,6 +92,8 @@
 
     move-result v1
 
+    const/4 v1, 0x1
+
     if-nez v1, :cond_1
 
     invoke-virtual {v0}, Lcom/google/android/apps/camera/util/ApiHelper;->a()Z
