@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>ดูภาพพาโนรามา</item>
+        <item>แชร์ภาพพาโนรามา</item>
+        <item>แบ่งกันกับแผนที่</item>
+        <item>สร้างโลกใบเล็ก</item>
+        <item>ลบ</item>
+        <item>ส่งให้ทีมงานแก้จุดบกพร่อง</item>
+        <item>ต่อภาพพาโนรามา</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>ต่อภาพพาโนรามา</item>
+    </string-array>
+</resources>

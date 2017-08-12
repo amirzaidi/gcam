@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>પેનોરમા જુઓ</item>
+        <item>પેનોરમા શેર કરો</item>
+        <item>નકશા સાથે શેર કરો</item>
+        <item>નાનો ગ્રહ બનાવો</item>
+        <item>કાઢી નાખો</item>
+        <item>ડિબગીંગ માટે ટીમને મોકલો</item>
+        <item>પેનોરમાને સ્ટીચ કરો</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>પેનોરમાને સ્ટીચ કરો</item>
+    </string-array>
+</resources>

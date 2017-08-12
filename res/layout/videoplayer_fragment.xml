@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_view_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <VideoView android:layout_gravity="center" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/controls_group" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/videoplayer_pause_button" android:background="@drawable/pause_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/pause_video" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/video_progress_group" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <TextView android:textColor="@color/quantum_white_text" android:gravity="center" android:layout_gravity="bottom" android:id="@id/video_current_time" android:paddingLeft="4.0dip" android:paddingTop="8.0dip" android:paddingRight="4.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/thumb_halo_size" />
+            <SeekBar android:id="@id/video_player_progress" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/thumb_halo_size" android:maxHeight="@dimen/thumb_halo_size" android:progressDrawable="@drawable/seekbar_progress" android:minHeight="@dimen/thumb_halo_size" android:thumbOffset="8.0dip" android:layout_weight="1.0" style="@style/VideoPlayerSeekbar" />
+            <TextView android:textColor="@color/quantum_white_text" android:gravity="center" android:layout_gravity="bottom" android:id="@id/video_total_time" android:paddingLeft="4.0dip" android:paddingTop="8.0dip" android:paddingRight="4.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/thumb_halo_size" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageButton android:id="@id/videoplayer_play_button" android:background="@drawable/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/play_video" />
+</RelativeLayout>

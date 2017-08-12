@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d படங்கள் சேமிக்கப்பட்டன</item>
+        <item quantity="one">%1$d படம் சேமிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d சிறந்த படங்கள் சேமிக்கப்பட்டன</item>
+        <item quantity="one">%1$d சிறந்த படம் சேமிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">பர்ஸ்ட் (%d படங்கள்)</item>
+        <item quantity="one">பர்ஸ்ட் (%d படம்)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d முகங்கள்.</item>
+        <item quantity="one">%1$d முகம்.</item>
+    </plurals>
+</resources>

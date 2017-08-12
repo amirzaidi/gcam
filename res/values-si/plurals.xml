@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">ඡායාරූප %1$dක් සුරකින ලදී</item>
+        <item quantity="one">ඡායාරූප %1$dක් සුරකින ලදී</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">හොඳම ඡායාරූප %1$d සුරකින ලදී</item>
+        <item quantity="one">හොඳම ඡායාරූප %1$d සුරකින ලදී</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">අඛණ්ඩ අධිවේග (ඡායාරූප %d)</item>
+        <item quantity="one">අඛණ්ඩ අධිවේග (ඡායාරූප %d)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">මුහුණු %1$d.</item>
+        <item quantity="one">මුහුණු %1$d.</item>
+    </plurals>
+</resources>

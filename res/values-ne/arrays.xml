@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>दृश्मा हेर्नुहोस्</item>
+        <item>परिदृश्य साझेदारी गर्नुहोस्</item>
+        <item>नक्सासँग साझेदारी गर्नुहोस्</item>
+        <item>सानो ग्रह बनाउनुहोस्</item>
+        <item>मेट्नुहोस्</item>
+        <item>डिबगिङका लागि समूहमा पठाउनुहोस,</item>
+        <item>दृश्मा स्टिच गर्नुहोस्</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>दृश्मा स्टिच गर्नुहोस्</item>
+    </string-array>
+</resources>

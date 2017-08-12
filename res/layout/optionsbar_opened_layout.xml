@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/optionsbar_opened" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/timer_options" />
+    <include layout="@layout/hdr_options" />
+    <include layout="@layout/flash_options" />
+    <include layout="@layout/white_balance_options" />
+    <include layout="@layout/fps_options" />
+    <include layout="@layout/grid_lines_options" />
+</FrameLayout>

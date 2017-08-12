@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>প্যানারামা দেখুন</item>
+        <item>প্যানোরামা শেয়ার করুন</item>
+        <item>মানচিত্রের সাথে শেয়ার করুন</item>
+        <item>ছোট গ্রহ তৈরি করুন</item>
+        <item>মুছুন</item>
+        <item>ডিবাগিংয়ের জন্য দলের কাছে পাঠান</item>
+        <item>স্টিচ প্যানোরামা</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>স্টিচ প্যানোরামা</item>
+    </string-array>
+</resources>

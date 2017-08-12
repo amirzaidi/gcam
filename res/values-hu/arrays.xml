@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Panorámakép megtekintése</item>
+        <item>Panorámakép megosztása</item>
+        <item>Megosztás a Google Térképpel</item>
+        <item>Kisbolygó létrehozása</item>
+        <item>Törlés</item>
+        <item>Küldés a csapatnak hibakeresés céljából</item>
+        <item>Panorámakép összeillesztése</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Panorámakép összeillesztése</item>
+    </string-array>
+</resources>

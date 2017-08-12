@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>პანორამის ნახვა</item>
+        <item>პანორამის გაზიარება</item>
+        <item>Maps-ით გაზიარება</item>
+        <item>პატარა პლანეტის შექმნა</item>
+        <item>წაშლა</item>
+        <item>გაუგზავნეთ ჯგუფს გამართვისათვის</item>
+        <item>პანორამის აწყობა</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>პანორამის აწყობა</item>
+    </string-array>
+</resources>

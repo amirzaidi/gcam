@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.camera.legacy.app.burst.editor.grid.SquareFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/selection_padding_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.camera.legacy.app.burst.editor.grid.BurstImageView android:id="@id/burst_grid_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <ImageView android:id="@id/selection_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/burst_grid_circle_margin" android:src="@drawable/burst_editor_selection_circle" android:layout_marginStart="@dimen/burst_grid_circle_margin" />
+</com.google.android.apps.camera.legacy.app.burst.editor.grid.SquareFrameLayout>

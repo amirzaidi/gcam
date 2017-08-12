@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="camera_front_back" android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="layer_4_outlines_2" android:scaleX="0.0" android:scaleY="0.0" android:translateX="45.875" android:translateY="40.0">
+        <group android:name="layer_4_outlines_2_pivot" android:translateX="-45.875" android:translateY="-40.0">
+            <group android:name="group_2" android:translateX="24.0" android:translateY="28.0">
+                <path android:name="path_1" android:fillColor="#ffffffff" android:pathData="M 22.0,12.0 c 0.0,0.0 -35.75,0.0 -35.75,0.0 c 0.0,0.0 17.75,-24.0 17.75,-24.0 c 0.0,0.0 18.0,24.0 18.0,24.0 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="shape_layer_2" android:translateX="9.75" android:translateY="25.73438">
+        <group android:name="group_1" android:scaleY="0.99923" android:translateX="14.25" android:translateY="7.25">
+            <path android:name="path_2" android:fillColor="#ffffffff" android:pathData="M 0.0,-7.0 c -1.79908752441,0.0 -4.70846557617,0.714340209961 -7.41024780273,1.86224365234 c -3.46618652344,1.47268676758 -6.5906829834,3.65896606445 -6.5906829834,5.96601867676 c 0.0,0.0 0.000930786132811,6.1717376709 0.0009307861328,6.1717376709 c 0.0,0.0 28.0,0.0 28.0,0.0 c 0.0,0.0 0.0,-6.17451477051 0.0,-6.17451477051 c 0.0,-4.1025390625 -9.89468383789,-7.82548522949 -14.0,-7.82548522949 Z" />
+        </group>
+    </group>
+    <group android:name="layer_2_outlines" android:translateX="24.0" android:translateY="10.01563">
+        <group android:name="layer_2_outlines_pivot" android:translateX="-6.25" android:translateY="-0.26563">
+            <group android:name="group_3" android:translateX="6.25" android:translateY="6.25">
+                <path android:name="path_3" android:fillColor="#ffffffff" android:pathData="M 6.0,0.0 c 0.0,3.31399536133 -2.68600463867,6.0 -6.0,6.0 c -3.31399536133,0.0 -6.0,-2.68600463867 -6.0,-6.0 c 0.0,-3.31399536133 2.68600463867,-6.0 6.0,-6.0 c 3.31399536133,0.0 6.0,2.68600463867 6.0,6.0 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

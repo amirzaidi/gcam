@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>파노라마 보기</item>
+        <item>파노라마 공유</item>
+        <item>지도에서 공유</item>
+        <item>작은 행성 만들기</item>
+        <item>삭제</item>
+        <item>디버깅을 위해 담당 팀에 전달</item>
+        <item>파노라마 연결</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>파노라마 연결</item>
+    </string-array>
+</resources>

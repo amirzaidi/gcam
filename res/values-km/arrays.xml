@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>មើល​ទេសភាព</item>
+        <item>ចែករំលែក​ទេសភាព</item>
+        <item>ចែករំលែក​ជាមួយ​ផែនទី</item>
+        <item>បង្កើត​ភព​តូច​</item>
+        <item>លុប</item>
+        <item>ផ្ញើ​ទៅ​ក្រុម​ ដើម្បី​កែ​កំហុស</item>
+        <item>ទេសភាព​មាន​ថ្នេរ</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>ទេសភាព​មាន​ថ្នេរ</item>
+    </string-array>
+</resources>

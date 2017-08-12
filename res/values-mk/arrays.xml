@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Прикажи панорама</item>
+        <item>Сподели панорама</item>
+        <item>Сподели со „Карти“</item>
+        <item>Создади мала планета</item>
+        <item>Избриши</item>
+        <item>Испрати до тим за отстранување грешки</item>
+        <item>Спој панорама</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Спој панорама</item>
+    </string-array>
+</resources>

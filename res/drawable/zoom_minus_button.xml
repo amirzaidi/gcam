@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="zoom_minus_button" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:rotation="90.0" android:translateX="24.0">
+        <path android:fillColor="#ffffffff" android:pathData="M12 5c0.554 0 1 0.446 1 1l0 12c0 0.554 -0.446 1 -1 1 -0.554 0 -1 -0.446 -1 -1L11 6c0 -0.554 0.446 -1 1 -1z" />
+        <path android:pathData="M12 5c0.554 0 1 0.446 1 1l0 12c0 0.554 -0.446 1 -1 1 -0.554 0 -1 -0.446 -1 -1L11 6c0 -0.554 0.446 -1 1 -1z" android:strokeColor="#ff000000" android:strokeWidth="0.5" android:strokeAlpha="0.25" />
+    </group>
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>पॅनोरामा पहा</item>
+        <item>पॅनोरामा सामायिक करा</item>
+        <item>नकाशे सह सामायिक करा</item>
+        <item>छोटेसे प्लॅनेट तयार करा</item>
+        <item>हटवा</item>
+        <item>डीबग करण्यासाठी कार्यसंघाकडे पाठवा</item>
+        <item>पॅनोरामा जोडा</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>पॅनोरामा जोडा</item>
+    </string-array>
+</resources>

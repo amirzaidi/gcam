@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:anim/cycle_interpolator" android:duration="1500" android:valueFrom="0" android:valueTo="@dimen/video_hint_chevron_animation_max_translation" android:valueType="floatType" android:propertyName="translationX" />
+    <objectAnimator android:interpolator="@android:anim/cycle_interpolator" android:duration="1500" android:startOffset="1000" android:repeatCount="infinite" android:valueFrom="0" android:valueTo="@dimen/video_hint_chevron_animation_max_translation" android:valueType="floatType" android:propertyName="translationX" />
+</set>

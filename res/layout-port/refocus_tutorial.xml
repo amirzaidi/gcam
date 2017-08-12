@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fullscreen_dialog_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/refocus_tutorial" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_horizontal" android:id="@id/refocus_tutorial_title" android:paddingLeft="15.0dip" android:paddingTop="43.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refocus_tutorial_title_slide_1" android:layout_weight="0.0" style="@style/fullscreen_dialog_title" />
+        <include layout="@layout/refocus_tutorial_slide1" />
+        <include android:visibility="gone" layout="@layout/refocus_tutorial_slide2" />
+        <include android:visibility="gone" layout="@layout/refocus_tutorial_slide3" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <Button android:id="@id/next_button" android:layout_marginBottom="84.0dip" android:layout_centerHorizontal="true" style="@style/BlueButton" />
+            <Button android:id="@id/skip_link" android:layout_marginBottom="28.0dip" android:text="@string/refocus_tutorial_skip" android:layout_alignBaseline="@id/next_button" android:layout_toEndOf="@id/next_button" style="@style/SkipLink" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

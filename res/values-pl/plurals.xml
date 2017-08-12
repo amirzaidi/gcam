@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d zdjęcia zostało zapisane</item>
+        <item quantity="one">%1$d zdjęcie zostało zapisane</item>
+        <item quantity="few">%1$d zdjęcia zostały zapisane</item>
+        <item quantity="many">%1$d zdjęć zostało zapisanych</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Zapisano %1$d najlepszego zdjęcia</item>
+        <item quantity="one">Zapisano %1$d najlepsze zdjęcie</item>
+        <item quantity="few">Zapisano %1$d najlepsze zdjęcia</item>
+        <item quantity="many">Zapisano %1$d najlepszych zdjęć</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Seria (%d zdjęcia)</item>
+        <item quantity="one">Seria (%d zdjęcie)</item>
+        <item quantity="few">Seria (%d zdjęcia)</item>
+        <item quantity="many">Seria (%d zdjęć)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d twarzy.</item>
+        <item quantity="one">%1$d twarz.</item>
+        <item quantity="few">%1$d twarze.</item>
+        <item quantity="many">%1$d twarzy.</item>
+    </plurals>
+</resources>

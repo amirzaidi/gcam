@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d valokuvaa tallennettu</item>
+        <item quantity="one">%1$d valokuva tallennettu</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d parasta kuvaa tallennettu</item>
+        <item quantity="one">%1$d paras kuva tallennettu</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Kuvasarja (%d kuvaa)</item>
+        <item quantity="one">Kuvasarja (%d kuva)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d kasvot</item>
+        <item quantity="one">%1$d kasvot</item>
+    </plurals>
+</resources>

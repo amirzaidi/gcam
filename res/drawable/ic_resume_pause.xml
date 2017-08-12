@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_resume_pause" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shape_layer_5" android:translateX="12.0" android:translateY="12.0">
+        <clip-path android:name="mask_3" android:pathData="M -8.216796875,-8.03979492188 c 0.0,0.0 0.0,17.7585449219 0.0,17.7585449219 c 0.0,0.0 10.234375,0.005859375 10.234375,0.005859375 c 0.0,0.0 0.0,-17.7585449219 0.0,-17.7585449219 c 0.0,0.0 -10.234375,-0.005859375 -10.234375,-0.005859375 Z" />
+        <group android:name="rectangle_3" android:translateX="9.8E-4">
+            <path android:name="rectangle_path_3" android:fillColor="#fff34335" android:pathData="M 0.0,-5.0 l 0.0,0.0 c 2.761423749,0.0 5.0,2.238576251 5.0,5.0 l 0.0,0.0 c 0.0,2.761423749 -2.238576251,5.0 -5.0,5.0 l 0.0,0.0 c -2.761423749,0.0 -5.0,-2.238576251 -5.0,-5.0 l 0.0,0.0 c 0.0,-2.761423749 2.238576251,-5.0 5.0,-5.0 Z" />
+        </group>
+    </group>
+    <group android:name="shape_layer_6" android:translateX="12.0" android:translateY="12.0">
+        <clip-path android:name="mask_4" android:pathData="M -0.998046875,-8.0498046875 c 0.0,0.0 0.0,17.7585449219 0.0,17.7585449219 c 0.0,0.0 10.234375,0.005859375 10.234375,0.005859375 c 0.0,0.0 0.0,-17.7585449219 0.0,-17.7585449219 c 0.0,0.0 -10.234375,-0.005859375 -10.234375,-0.005859375 Z" />
+        <group android:name="rectangle_4" android:translateX="9.8E-4">
+            <path android:name="rectangle_path_4" android:fillColor="#fff34335" android:pathData="M 0.0,-5.0 l 0.0,0.0 c 2.761423749,0.0 5.0,2.238576251 5.0,5.0 l 0.0,0.0 c 0.0,2.761423749 -2.238576251,5.0 -5.0,5.0 l 0.0,0.0 c -2.761423749,0.0 -5.0,-2.238576251 -5.0,-5.0 l 0.0,0.0 c 0.0,-2.761423749 2.238576251,-5.0 5.0,-5.0 Z" />
+        </group>
+    </group>
+</vector>

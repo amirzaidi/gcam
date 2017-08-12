@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_swipe_hint" android:background="@drawable/video_hint_background" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_alignParentBottom="true" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:id="@id/video_swipe_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_swipe_hint" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/HintTextStyle" />
+        <ImageView android:id="@id/video_hint_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_chevron_left_white_24dp" android:layout_toLeftOf="@id/video_swipe_hint_text" />
+    </RelativeLayout>
+</RelativeLayout>

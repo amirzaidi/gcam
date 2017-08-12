@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="album_rows_land">2</integer>
+    <integer name="album_rows_port">4</integer>
+    <integer name="albumset_rows_land">2</integer>
+    <integer name="albumset_rows_port">3</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_bar_background_alpha">255</integer>
+    <integer name="bottom_bar_background_alpha_overlay">102</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="camera_mode_capture_intent">7</integer>
+    <integer name="camera_mode_gcam">5</integer>
+    <integer name="camera_mode_panorama">4</integer>
+    <integer name="camera_mode_photo">0</integer>
+    <integer name="camera_mode_photosphere">3</integer>
+    <integer name="camera_mode_refocus">2</integer>
+    <integer name="camera_mode_video">1</integer>
+    <integer name="camera_mode_video_hfr">6</integer>
+    <integer name="camera_mode_video_intent">8</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_change_fade_in_duration_ms">250</integer>
+    <integer name="config_change_rotation_duration_ms">250</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="evcomp_visibility_timeout_millis">4000</integer>
+    <integer name="google_play_services_version">8487000</integer>
+    <integer name="hdr_plus_mode_auto">0</integer>
+    <integer name="hdr_plus_mode_auto_ready">1</integer>
+    <integer name="max_video_recording_length">0</integer>
+    <integer name="rgbz_viewer_default_ring_alpha_percent">90</integer>
+    <integer name="rgbz_viewer_faded_ring_alpha_percent">30</integer>
+    <integer name="rgbz_viewer_ring_animation_duration_ms">200</integer>
+    <integer name="rgbz_viewer_ring_animation_timeout_ms">3000</integer>
+    <integer name="settings">9</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

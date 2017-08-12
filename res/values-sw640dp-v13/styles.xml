@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PanoCustomDialogText" parent="@style/PanoCustomDialogText_xlarge" />
+    <style name="PopupTitleText" parent="@style/PopupTitleText_xlarge" />
+    <style name="ReviewControlText" parent="@style/ReviewControlText_xlarge" />
+    <style name="SettingPopupWindow" parent="@style/SettingPopupWindow_xlarge" />
+    <style name="ViewfinderLabelLayout" parent="@style/ViewfinderLabelLayout_xlarge" />
+</resources>

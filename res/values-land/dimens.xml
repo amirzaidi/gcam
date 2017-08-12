@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="manage_cache_bottom_height">39.0dip</dimen>
+    <dimen name="photosphere_overlay_message_short_layout_height">113.0dip</dimen>
+    <dimen name="photosphere_overlay_message_short_layout_marginTop">0.0dip</dimen>
+    <dimen name="photosphere_overlay_message_short_layout_width">246.0dip</dimen>
+    <dimen name="capture_top_margin">0.0dip</dimen>
+</resources>

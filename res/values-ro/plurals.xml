@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d de fotografii salvate</item>
+        <item quantity="one">%1$d fotografie salvată</item>
+        <item quantity="few">%1$d fotografii salvate</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d de fotografii optime salvate</item>
+        <item quantity="one">%1$d fotografie optimă salvată</item>
+        <item quantity="few">%1$d fotografii optime salvate</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Rafală (%d de fotografii)</item>
+        <item quantity="one">Rafală (%d fotografie)</item>
+        <item quantity="few">Rafală (%d fotografii)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d de fețe.</item>
+        <item quantity="one">%1$d față.</item>
+        <item quantity="few">%1$d fețe.</item>
+    </plurals>
+</resources>

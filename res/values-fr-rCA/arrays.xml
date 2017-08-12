@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Afficher la vue panoramique</item>
+        <item>Partager la vue panoramique</item>
+        <item>Partager via Google Maps</item>
+        <item>Créer une petite planète</item>
+        <item>Supprimer</item>
+        <item>"Envoyer à l'équipe pour débogage"</item>
+        <item>Assembler la vue panoramique</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Assembler la vue panoramique</item>
+    </string-array>
+</resources>

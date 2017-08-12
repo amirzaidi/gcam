@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>பனோரமாவைக் காட்டு</item>
+        <item>பனோரமாவைப் பகிர்</item>
+        <item>வரைபடம் மூலம் பகிர்</item>
+        <item>சிறிய கிரகத்தை உருவாக்கு</item>
+        <item>நீக்கு</item>
+        <item>பிழைத்திருத்தத்திற்காகக் குழுவிற்கு அனுப்பு</item>
+        <item>பனோரமாவை இணை</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>பனோரமாவை இணை</item>
+    </string-array>
+</resources>

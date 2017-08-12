@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/white_balance_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/white_balance_auto" optionsbar:camera_option_label="@string/white_balance_auto_desc" optionsbar:camera_option_icon="@drawable/ic_wb_auto" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/white_balance_cloudy" optionsbar:camera_option_label="@string/white_balance_cloudy_desc" optionsbar:camera_option_icon="@drawable/ic_wb_cloudy" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/white_balance_sunny" optionsbar:camera_option_label="@string/white_balance_sunny_desc" optionsbar:camera_option_icon="@drawable/ic_wb_sunny" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/white_balance_fluorescent" optionsbar:camera_option_label="@string/white_balance_fluorescent_desc" optionsbar:camera_option_icon="@drawable/ic_wb_fluorescent" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/white_balance_incandescent" optionsbar:camera_option_label="@string/white_balance_incandescent_desc" optionsbar:camera_option_icon="@drawable/ic_wb_incandescent" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+</LinearLayout>

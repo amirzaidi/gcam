@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/slide_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/tutorial_graphics_photo_back" style="@style/slide_1_photo" />
+    <ImageView android:id="@id/slide_1_photo_front" android:src="@drawable/tutorial_graphics_photo_front" style="@style/slide_1_photo" />
+</FrameLayout>

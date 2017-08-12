@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">"%1$d foto's is gestoor"</item>
+        <item quantity="one">%1$d foto is gestoor</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">"%1$d beste foto's is gestoor"</item>
+        <item quantity="one">%1$d beste foto is gestoor</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">"Sarsie (%d foto's)"</item>
+        <item quantity="one">Sarsie (%d foto)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d gesigte.</item>
+        <item quantity="one">%1$d gesig.</item>
+    </plurals>
+</resources>

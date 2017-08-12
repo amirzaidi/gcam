@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>ፓኖራማ ይመልከቱ</item>
+        <item>ፓናሮማ አጋራ</item>
+        <item>ለካርታዎች ያጋሩ</item>
+        <item>ትንሽ ፕላኔት ይፍጠሩ</item>
+        <item>ሰርዝ</item>
+        <item>እንዲታረም ለቡድን ይላኩ</item>
+        <item>ፓኖራማ ያገጣጥሙ</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>ፓኖራማ አገጣጥም</item>
+    </string-array>
+</resources>

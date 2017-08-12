@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_burst"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="layer_8_outlines" android:animation="@animator/ic_burst_layer_8_outlines_animation" />
+    <target android:name="mask_1" android:animation="@animator/ic_burst_mask_1_animation" />
+    <target android:name="layer_7_outlines" android:animation="@animator/ic_burst_layer_7_outlines_animation" />
+    <target android:name="layer_3_outlines" android:animation="@animator/ic_burst_layer_3_outlines_animation" />
+    <target android:name="mask_2" android:animation="@animator/ic_burst_mask_2_animation" />
+    <target android:name="path_3" android:animation="@animator/ic_burst_path_3_animation" />
+    <target android:name="layer_2_outlines" android:animation="@animator/ic_burst_layer_2_outlines_animation" />
+    <target android:name="mask_3" android:animation="@animator/ic_burst_mask_3_animation" />
+    <target android:name="layer_3_outlines_2" android:animation="@animator/ic_burst_layer_3_outlines_2_animation" />
+    <target android:name="mask_4" android:animation="@animator/ic_burst_mask_4_animation" />
+    <target android:name="path_5" android:animation="@animator/ic_burst_path_5_animation" />
+    <target android:name="layer_2_outlines_2" android:animation="@animator/ic_burst_layer_2_outlines_2_animation" />
+    <target android:name="mask_5" android:animation="@animator/ic_burst_mask_5_animation" />
+</animated-vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/camera_back_front"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="layer_4_outlines_2" android:animation="@anim/camera_back_front_layer_4_outlines_2_animation" />
+    <target android:name="shape_layer_2" android:animation="@anim/camera_back_front_shape_layer_2_animation" />
+    <target android:name="path_2" android:animation="@anim/camera_back_front_path_2_animation" />
+    <target android:name="layer_2_outlines" android:animation="@anim/camera_back_front_layer_2_outlines_animation" />
+</animated-vector>

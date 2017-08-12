@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/optionsbar_closed" android:background="@color/optionsbar_background_closed" android:paddingLeft="0.0dip" android:paddingRight="@dimen/optionsbar_closed_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/left_button_placeholder" style="@style/options_bar_left_placeholder" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/capture_options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:id="@id/timer_button" android:src="@drawable/ic_timer_normal_off" android:contentDescription="@string/timer_options_desc" style="@style/options_bar_rightside_option_hidden" />
+        <ImageButton android:id="@id/hdr_button" android:src="@drawable/ic_hdr_plus_normal_auto" android:contentDescription="@string/hdr_plus_options_desc" style="@style/options_bar_rightside_option_hidden" />
+        <ImageButton android:id="@id/fps_button" android:src="@drawable/ic_fps_30" android:contentDescription="@string/fps_options_desc" style="@style/options_bar_rightside_option_hidden" />
+        <ImageButton android:id="@id/grid_lines_button" android:src="@drawable/ic_grid_off" android:contentDescription="@string/grid_lines_options_desc" style="@style/options_bar_rightside_option_hidden" />
+        <ImageButton android:id="@id/white_balance_button" android:src="@drawable/ic_wb_auto" android:contentDescription="@string/white_balance_options_desc" style="@style/options_bar_rightside_option_hidden" />
+        <ImageButton android:id="@id/flash_button" android:src="@drawable/ic_flash_normal_auto" android:contentDescription="@string/flash_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/panorama_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

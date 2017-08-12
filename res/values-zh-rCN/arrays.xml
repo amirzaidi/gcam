@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>查看全景照片</item>
+        <item>分享全景照片</item>
+        <item>分享到地图</item>
+        <item>创建小星球</item>
+        <item>删除</item>
+        <item>发送给小组进行调试</item>
+        <item>拼接全景照片</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>拼接全景照片</item>
+    </string-array>
+</resources>

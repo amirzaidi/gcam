@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d Fotos gespeichert</item>
+        <item quantity="one">%1$d Foto gespeichert</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d beste Fotos gespeichert</item>
+        <item quantity="one">%1$d bestes Foto gespeichert</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Bilderfolge (%d Bilder)</item>
+        <item quantity="one">Bilderfolge (%d Bild)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d Gesichter.</item>
+        <item quantity="one">%1$d Gesicht.</item>
+    </plurals>
+</resources>

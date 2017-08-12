@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Xem ảnh toàn cảnh</item>
+        <item>Chia sẻ ảnh toàn cảnh</item>
+        <item>Chia sẻ với Bản đồ</item>
+        <item>Tạo hành tinh nhỏ</item>
+        <item>Xóa</item>
+        <item>Gửi tới nhóm để gỡ lỗi</item>
+        <item>Ghép ảnh toàn cảnh</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Ghép ảnh toàn cảnh</item>
+    </string-array>
+</resources>

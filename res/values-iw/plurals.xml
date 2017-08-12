@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d תמונות נשמרו</item>
+        <item quantity="one">%1$d תמונה נשמרה</item>
+        <item quantity="two">%1$d תמונות נשמרו</item>
+        <item quantity="many">%1$d תמונות נשמרו</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d התמונות הטובות ביותר נשמרו</item>
+        <item quantity="one">%1$d התמונה הטובה ביותר נשמרה</item>
+        <item quantity="two">%1$d התמונות הטובות ביותר נשמרו</item>
+        <item quantity="many">%1$d התמונות הטובות ביותר נשמרו</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">רצף (%d תמונות)</item>
+        <item quantity="one">רצף (%d תמונה)</item>
+        <item quantity="two">רצף (%d תמונות)</item>
+        <item quantity="many">רצף (%d תמונות)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d פרצופים.</item>
+        <item quantity="one">%1$d פרצוף.</item>
+        <item quantity="two">%1$d פרצופים.</item>
+        <item quantity="many">%1$d פרצופים.</item>
+    </plurals>
+</resources>

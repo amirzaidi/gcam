@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>පරිදර්ශනය බලන්න</item>
+        <item>පරිදර්ශනය බෙදාහදා ගන්න</item>
+        <item>සිතියම් සමග බෙදා ගන්න</item>
+        <item>කුඩා ග්‍රහලෝකය තනන්න</item>
+        <item>මකන්න</item>
+        <item>නිදොස් කිරීම සඳහා කණ්ඩායම වෙත යවන්න</item>
+        <item>පරිදර්ශනය මහන්න</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>පරිදර්ශනය මහන්න</item>
+    </string-array>
+</resources>

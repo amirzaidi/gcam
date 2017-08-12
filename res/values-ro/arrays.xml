@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Vedeți panorama</item>
+        <item>Distribuiți panorama</item>
+        <item>Permiteți accesul Hărți Google</item>
+        <item>Creați o planetă mică</item>
+        <item>Ștergeți</item>
+        <item>Trimiteți echipei pentru rezolvarea problemelor</item>
+        <item>Îmbinați panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Îmbinați panorama</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Панорама харах</item>
+        <item>Панорамаг хуваалцах</item>
+        <item>Газрын зурагтай хуваалцах</item>
+        <item>Жижиг гариг үүсгэх</item>
+        <item>Устгах</item>
+        <item>Багийг дебаг хийлгэхээр явуулах</item>
+        <item>Панорамаг нийлүүлэх</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Панорамаг нийлүүлэх</item>
+    </string-array>
+</resources>

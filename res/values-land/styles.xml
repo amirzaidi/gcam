@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="PopupTitleText">
+        <item name="android:textSize">@dimen/popup_title_text_size</item>
+        <item name="android:textColor">@color/popup_title_color</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SettingPopupWindow">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/setting_popup_right_margin</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="ViewfinderLabelLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/viewfinder_label_layout_margin</item>
+        <item name="android:layout_marginTop">@dimen/viewfinder_label_layout_top_margin</item>
+        <item name="android:layout_marginRight">@dimen/indicator_bar_width</item>
+        <item name="android:layout_marginBottom">@dimen/viewfinder_label_layout_margin</item>
+    </style>
+    <style name="ReviewControlIcon">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/switcher_size</item>
+        <item name="android:layout_height">@dimen/switcher_size</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="SettingPopupWindow_xlarge">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/setting_popup_right_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="ActionBarTwoLinePrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+</resources>

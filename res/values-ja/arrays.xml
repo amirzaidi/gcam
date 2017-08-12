@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>パノラマ写真を表示</item>
+        <item>パノラマ写真を共有</item>
+        <item>Googleマップと共有</item>
+        <item>小さい惑星を作成</item>
+        <item>削除</item>
+        <item>デバッグのためにチームに送信</item>
+        <item>パノラマ写真を合成</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>パノラマ写真を合成する</item>
+    </string-array>
+</resources>

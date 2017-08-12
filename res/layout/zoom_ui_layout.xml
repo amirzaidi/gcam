@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.camera.zoomui.ZoomMarkerView android:layout_gravity="top" android:id="@id/zoom_marker_view" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_marker_view_height" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/zoom_ui_internal" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_ui_seekbar_height"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageButton android:layout_gravity="bottom" android:id="@id/zoom_minus_button" android:background="@android:color/transparent" android:layout_width="@dimen/zoom_button_size" android:layout_height="@dimen/zoom_button_size" android:src="@drawable/ic_zoom_minus" android:scaleType="center" android:contentDescription="@string/zoom_minus_desc" />
+        <SeekBar android:layout_gravity="bottom" android:id="@id/zoom_marker_progress" android:paddingLeft="@dimen/seekbar_padding" android:paddingRight="@dimen/seekbar_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_seekbar_height" android:layout_marginTop="@dimen/seekbar_margin" android:layout_marginBottom="@dimen/seekbar_margin" android:maxHeight="@dimen/zoom_seekbar_height" android:progressDrawable="@drawable/zoom_ui_slider" android:minHeight="@dimen/zoom_seekbar_height" android:layout_weight="1.0" style="@style/ZoomUiSlider" />
+        <ImageButton android:layout_gravity="bottom" android:id="@id/zoom_plus_button" android:background="@android:color/transparent" android:layout_width="@dimen/zoom_button_size" android:layout_height="@dimen/zoom_button_size" android:src="@drawable/ic_zoom_plus" android:scaleType="center" android:contentDescription="@string/zoom_plus_desc" />
+    </LinearLayout>
+</merge>

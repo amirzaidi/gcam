@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">تم حفظ %1$d صورة</item>
+        <item quantity="zero">تم حفظ %1$d صورة</item>
+        <item quantity="one">تم حفظ %1$d صورة</item>
+        <item quantity="two">تم حفظ صورتين (%1$d)</item>
+        <item quantity="few">تم حفظ %1$d صور</item>
+        <item quantity="many">تم حفظ %1$d صورة</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">تم حفظ أفضل %1$d صورة</item>
+        <item quantity="zero">%1$d best photos saved</item>
+        <item quantity="one">تم حفظ أفضل صورة (%1$d)</item>
+        <item quantity="two">تم حفظ أفضل صورتين (%1$d)</item>
+        <item quantity="few">تم حفظ أفضل %1$d صور</item>
+        <item quantity="many">تم حفظ أفضل %1$d صورة</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">صور متسلسلة (%d صورة)</item>
+        <item quantity="zero">صور متسلسلة (%d صور)</item>
+        <item quantity="one">صور متسلسلة (%d صورة)</item>
+        <item quantity="two">صور متسلسلة (صورتان (%d))</item>
+        <item quantity="few">صور متسلسلة (%d صور)</item>
+        <item quantity="many">صور متسلسلة (%d صورة)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d وجه.</item>
+        <item quantity="zero">%1$d وجه.</item>
+        <item quantity="one">%1$d وجه.</item>
+        <item quantity="two">وجهان (%1$d).</item>
+        <item quantity="few">%1$d وجوه.</item>
+        <item quantity="many">%1$d وجهًا.</item>
+    </plurals>
+</resources>

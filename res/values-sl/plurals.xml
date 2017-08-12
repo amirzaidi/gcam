@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Shranjenih je bilo %1$d fotografij</item>
+        <item quantity="one">Shranjena je bila %1$d fotografija</item>
+        <item quantity="two">Shranjeni sta bili %1$d fotografiji</item>
+        <item quantity="few">Shranjene so bile %1$d fotografije</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Shranjenih %1$d najboljših fotografij</item>
+        <item quantity="one">Shranjena %1$d najboljša fotografija</item>
+        <item quantity="two">Shranjeni %1$d najboljši fotografiji</item>
+        <item quantity="few">Shranjene %1$d najboljše fotografije</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Rafal (%d fotografij)</item>
+        <item quantity="one">Rafal (%d fotografija)</item>
+        <item quantity="two">Rafal (%d fotografiji)</item>
+        <item quantity="few">Rafal (%d fotografije)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d obrazov.</item>
+        <item quantity="one">%1$d obraz.</item>
+        <item quantity="two">%1$d obraza.</item>
+        <item quantity="few">%1$d obrazi.</item>
+    </plurals>
+</resources>

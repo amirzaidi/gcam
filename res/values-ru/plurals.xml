@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Сохранено %1$d фото</item>
+        <item quantity="one">Сохранено %1$d фото</item>
+        <item quantity="few">Сохранено %1$d фото</item>
+        <item quantity="many">Сохранено %1$d фото</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Сохранено %1$d лучшего фото</item>
+        <item quantity="one">Сохранено %1$d лучшее фото</item>
+        <item quantity="few">Сохранено %1$d лучших фото</item>
+        <item quantity="many">Сохранено %1$d лучших фото</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Серия снимков (%d)</item>
+        <item quantity="one">Серия снимков (%d)</item>
+        <item quantity="few">Серия снимков (%d)</item>
+        <item quantity="many">Серия снимков (%d)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d лица.</item>
+        <item quantity="one">%1$d лицо.</item>
+        <item quantity="few">%1$d лица.</item>
+        <item quantity="many">%1$d лиц.</item>
+    </plurals>
+</resources>

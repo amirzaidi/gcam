@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/filmstrip_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.camera.legacy.app.filmstrip.widget.PeekableFilmstripLayout android:id="@id/peekable_filmstrip_layout" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:id="@id/camera_filmstrip_content_layout_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/camera_filmstrip_content_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.google.android.apps.camera.legacy.app.filmstrip.widget.FilmstripView android:id="@id/filmstrip_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+        <View android:layout_gravity="top" android:id="@id/filmstrip_top_bar_gradient" android:background="@drawable/filmstrip_top_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/filmstrip_top_bar_gradient_height" />
+        <include layout="@layout/filmstrip_short_tall_bottom_bar_background" />
+        <FrameLayout android:id="@id/filmstrip_controls_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:layout_gravity="center|left" android:id="@id/accessibility_last_filmstrip_item_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_last_filmstrip_item" android:contentDescription="@string/accessibility_mode_last_filmstrip_item" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textSize="@dimen/filmstrip_view_no_photos_text_size" android:textColor="@color/filmstrip_view_no_photos_text_color" android:id="@id/no_photos_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filmstrip_no_photos_description" android:drawableTop="@drawable/ic_photo" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:layout_gravity="center|right" android:id="@id/accessibility_next_filmstrip_item_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_next_filmstrip_item" android:contentDescription="@string/accessibility_mode_next_filmstrip_item" />
+            <LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:id="@id/filmstrip_badge" android:background="@drawable/filmstrip_badge_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/filmstrip_badge_height" android:layout_marginTop="@dimen/filmstrip_badge_margin_top" android:layout_marginRight="@dimen/filmstrip_badge_margin_right"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/filmstrip_badge_progress_bar" android:layout_width="@dimen/filmstrip_badge_progress_bar_size" android:layout_height="@dimen/filmstrip_badge_progress_bar_size" android:layout_marginLeft="@dimen/filmstrip_badge_icon_margin_left" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_circle" style="@android:style/Widget.Holo.Light.ProgressBar" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/filmstrip_badge_icon" android:layout_width="@dimen/filmstrip_badge_icon_size" android:layout_height="@dimen/filmstrip_badge_icon_size" android:layout_marginLeft="@dimen/filmstrip_badge_icon_margin_left" />
+                <TextView android:id="@id/filmstrip_badge_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/filmstrip_badge_text_padding" android:paddingEnd="@dimen/filmstrip_badge_text_padding" style="@style/FilmstripBadgeStyle" />
+            </LinearLayout>
+            <include layout="@layout/filmstrip_bottom_controls" />
+        </FrameLayout>
+        <com.google.android.apps.camera.legacy.app.filmstrip.transition.FilmstripTransitionLayout android:id="@id/filmstrip_transition_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.google.android.apps.camera.legacy.app.filmstrip.transition.FilmstripTransitionThumbnailView android:id="@id/transition_thumbnail_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </com.google.android.apps.camera.legacy.app.filmstrip.transition.FilmstripTransitionLayout>
+    </com.google.android.apps.camera.legacy.app.filmstrip.widget.PeekableFilmstripLayout>
+</FrameLayout>

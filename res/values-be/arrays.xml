@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Прагляд панарамы</item>
+        <item>Адправiць панараму</item>
+        <item>Падзяліцца з Картамi</item>
+        <item>Стварыце маленькую планету</item>
+        <item>Выдаліць</item>
+        <item>Адправіць камандзе на адладку</item>
+        <item>Зборка панарамы</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Зборка панарамы</item>
+    </string-array>
+</resources>

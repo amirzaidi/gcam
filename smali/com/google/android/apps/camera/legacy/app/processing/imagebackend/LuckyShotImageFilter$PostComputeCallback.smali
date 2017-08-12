@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/google/android/apps/camera/legacy/app/processing/imagebackend/LuckyShotImageFilter$PostComputeCallback;
+.super Ljava/lang/Object;
+.source "LuckyShotImageFilter.java"
+
+
+# virtual methods
+.method public abstract saveLuckyShot$51666RRD5TJMURR7DHIIUOBECHP6UQB45TGN0S3J5THM2RB5E9GIUS3IDTHMASRJD5N6EBR9DLGMEPB2C5HMMPBECGNKIRB1CTIL8RQGE9NM6PBJECTKOORFDKNMERRFCTM6ABR1DPI74RR9CGNM2S3GECNM6OBDCLP62BRCCLJM2ORP5TGN0S1FEDIN6SR9DTN2UGR1E1Q7ASJ5ADIN6SR9DTN3MJ33DTMIUPRFDTJMOP9FC5N68SJFD5I2UOBGE1PIUOR1DLIN4O9FDHIMEOB3F4NM2S3G5TPN8OBKECNKOTB3DDSL6Q3FEH6MAT318HGN8OA2ELKMOP35E8TIILG_0(Lcom/google/android/apps/camera/processing/imagebackend/ImageToProcess;Lcom/google/android/apps/camera/legacy/app/session/StackableSession;Lcom/google/android/apps/camera/legacy/app/stats/LuckyShotMetaDataBuilder;)V
+.end method

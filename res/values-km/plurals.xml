@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">បានរក្សាទុករូបថត %1$d</item>
+        <item quantity="one">បានរក្សាទុករូបថត %1$d</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">រូបថតល្អបំផុត %1$d ត្រូវបានរក្សាទុក</item>
+        <item quantity="one">រូបថតល្អបំផុត %1$d ត្រូវបានរក្សាទុក</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">ថតញាប់ (%d រូប)</item>
+        <item quantity="one">ថតញាប់ (%d រូប)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">មុខ %1$d</item>
+        <item quantity="one">មុខ %1$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/grid_lines_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/grid_off" android:contentDescription="@string/grid_off_announce" optionsbar:camera_option_label="@string/grid_off_desc" optionsbar:camera_option_icon="@drawable/ic_grid_off" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/grid_3x3" android:contentDescription="@string/grid_3x3_announce" optionsbar:camera_option_label="@string/grid_3x3_desc" optionsbar:camera_option_icon="@drawable/ic_grid_3x3" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/grid_4x4" android:contentDescription="@string/grid_4x4_announce" optionsbar:camera_option_label="@string/grid_4x4_desc" optionsbar:camera_option_icon="@drawable/ic_grid_4x4" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/grid_golden_ratio" android:contentDescription="@string/grid_golden_ratio_announce" optionsbar:camera_option_label="@string/grid_golden_ratio_desc" optionsbar:camera_option_icon="@drawable/ic_grid_golden_ratio" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+</LinearLayout>

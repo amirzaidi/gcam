@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>مشاهده پانوراما</item>
+        <item>اشتراک‌گذاری پانوراما</item>
+        <item>‏اشتراک‌گذاری با Maps</item>
+        <item>ایجاد سیاره کوچک</item>
+        <item>حذف</item>
+        <item>ارسال به تیم برای اشکال‌زدایی</item>
+        <item>ترکیب پانوراما</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>ترکیب پانوراما</item>
+    </string-array>
+</resources>

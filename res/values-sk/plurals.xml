@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Bolo uložených %1$d fotiek</item>
+        <item quantity="one">Bola uložená %1$d fotka</item>
+        <item quantity="few">Boli uložené %1$d fotky</item>
+        <item quantity="many">Bolo uložené %1$d fotky</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Bolo uložených %1$d najlepších fotiek</item>
+        <item quantity="one">Bola uložená %1$d najlepšia fotka</item>
+        <item quantity="few">Boli uložené %1$d najlepšie fotky</item>
+        <item quantity="many">Bolo uloženej %1$d najlepšej fotky</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Séria (%d fotiek)</item>
+        <item quantity="one">Séria (%d fotka)</item>
+        <item quantity="few">Séria (%d fotky)</item>
+        <item quantity="many">Séria (%d fotiek)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d tvárí.</item>
+        <item quantity="one">%1$d tvár.</item>
+        <item quantity="few">%1$d tváre.</item>
+        <item quantity="many">%1$d tváre.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="quantum_text_black_dark">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/quantum_black_text</item>
+    </style>
+    <style name="quantum_text_black_medium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/quantum_black_secondary_text</item>
+    </style>
+    <style name="quantum_text_body_1_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_body_1_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_body_2_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_body_2_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_button_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_button_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_caption_black" parent="@style/quantum_text_black_medium">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_caption_white" parent="@style/quantum_text_white_medium">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_1_black" parent="@style/quantum_text_black_medium">
+        <item name="android:textSize">34.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_1_white" parent="@style/quantum_text_white_medium">
+        <item name="android:textSize">34.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_2_black" parent="@style/quantum_text_black_medium">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_2_white" parent="@style/quantum_text_white_medium">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_3_black" parent="@style/quantum_text_black_medium">
+        <item name="android:textSize">56.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_3_white" parent="@style/quantum_text_white_medium">
+        <item name="android:textSize">56.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_display_4_black" parent="@style/quantum_text_black_medium">
+        <item name="android:textSize">112.0sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="quantum_text_display_4_white" parent="@style/quantum_text_white_medium">
+        <item name="android:textSize">112.0sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="quantum_text_headline_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_headline_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_menu_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_menu_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_subhead_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_subhead_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_title_black" parent="@style/quantum_text_black_dark">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_title_white" parent="@style/quantum_text_white_light">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="quantum_text_white_light">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
+    </style>
+    <style name="quantum_text_white_medium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/quantum_white_secondary_text</item>
+    </style>
+</resources>

@@ -1,0 +1,209 @@
+.class public Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;
+.super Ljava/lang/Object;
+.source "TypedThumbnailBitmap.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES$BD666RRD5TJMURR7DHIIUOBECHP6UQB45TGN0S3J5THM2RB5E9GIUTB9ELQ6IR3J5TA7IS35CHA6GTBDC9N62QBC89KN8RB1E0I58Q3LDLH6SOB9DHA7IS357C______0:[I
+
+.field private static final synthetic $VALUES$BD666RRD5TJMURR7DHIIUOBECHP6UQB45TGN0S3J5THM2RB5E9GIUTB9ELQ6IR3J5TAMIJRID5IMST31EHKMURHR0:[I
+
+.field public static final enum BURST$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+.field public static final enum LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+.field public static final enum PHOTO$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+.field public static final enum PLACEHOLDER$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+.field public static final enum PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+.field public static final enum REVERSE_LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+.field public static final enum REVERSE_PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+.field public static final enum SECURE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+.field public static final enum VIDEO$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    const/4 v6, 0x0
+
+    const/4 v5, 0x4
+
+    const/4 v4, 0x3
+
+    const/4 v3, 0x2
+
+    const/4 v2, 0x1
+
+    sput v2, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PLACEHOLDER$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    sput v3, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PHOTO$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    sput v4, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->BURST$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    sput v5, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->VIDEO$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    const/4 v0, 0x5
+
+    sput v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->SECURE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    const/4 v0, 0x5
+
+    new-array v0, v0, [I
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PLACEHOLDER$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    aput v1, v0, v6
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PHOTO$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->BURST$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    aput v1, v0, v3
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->VIDEO$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    aput v1, v0, v4
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->SECURE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFAHSN0PB4AHK7ARB2DPGMIR22D5Q6QOBG4HA6GTBDC9N62QBCAHSN0P9R0:I
+
+    aput v1, v0, v5
+
+    sput-object v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->$VALUES$BD666RRD5TJMURR7DHIIUOBECHP6UQB45TGN0S3J5THM2RB5E9GIUTB9ELQ6IR3J5TA7IS35CHA6GTBDC9N62QBC89KN8RB1E0I58Q3LDLH6SOB9DHA7IS357C______0:[I
+
+    sput v2, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    sput v3, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    sput v4, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->REVERSE_LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    sput v5, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->REVERSE_PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    new-array v0, v5, [I
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    aput v1, v0, v6
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->REVERSE_LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    aput v1, v0, v3
+
+    sget v1, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->REVERSE_PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    aput v1, v0, v4
+
+    sput-object v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->$VALUES$BD666RRD5TJMURR7DHIIUOBECHP6UQB45TGN0S3J5THM2RB5E9GIUTB9ELQ6IR3J5TAMIJRID5IMST31EHKMURHR0:[I
+
+    return-void
+.end method
+
+.method public static getDisplayOrientation$51662RJ4E9NMIP1FCDNMST35DPQ2USJ5ECNK6RRECPKMETBIC5Q6IRRE7D662RJ4E9NMIP1FEPKMATPF8HKN6S3CC5SJMJ31DPI74RR9CGNM6RREEHIMST1F8DNMST35F1Q3MIA955666RRD5TJMURR7DHIIUOBECHP6UQB45TGN0S3J5THM2RB5E9GIUTB9ELQ6IR3J5TAMIJRID5IMST31EHKMURHR0(Landroid/content/res/Configuration;Landroid/view/Display;Landroid/content/Context;II)I
+    .locals 5
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p1}, Landroid/view/Display;->getRotation()I
+
+    move-result v2
+
+    iget v3, p0, Landroid/content/res/Configuration;->orientation:I
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v4, 0x18
+
+    if-lt v0, v4, :cond_3
+
+    check-cast p2, Landroid/app/Activity;
+
+    invoke-virtual {p2}, Landroid/app/Activity;->isInMultiWindowMode()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    move v0, v1
+
+    :goto_0
+    if-ne v3, v1, :cond_0
+
+    if-lt p3, p4, :cond_1
+
+    :cond_0
+    if-eqz v0, :cond_5
+
+    :cond_1
+    if-eqz v2, :cond_2
+
+    if-ne v2, v1, :cond_4
+
+    :cond_2
+    sget v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    :goto_1
+    return v0
+
+    :cond_3
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_4
+    sget v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->REVERSE_PORTRAIT$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    goto :goto_1
+
+    :cond_5
+    if-eqz v2, :cond_6
+
+    if-ne v2, v1, :cond_7
+
+    :cond_6
+    sget v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    goto :goto_1
+
+    :cond_7
+    const/4 v0, 0x2
+
+    if-eq v2, v0, :cond_8
+
+    const/4 v0, 0x3
+
+    if-ne v2, v0, :cond_9
+
+    :cond_8
+    sget v0, Lcom/google/android/apps/camera/uiutils/TypedThumbnailBitmap$ThumbnailType;->REVERSE_LANDSCAPE$9HHMUR9FCTNMUPRCCKNM2RJ4E9NMIP1FC5O70SPFCDGMQPBIC4NNAQBLEHKMOSPFALKKUSJ9CLN78OBKD5NMSEO_0:I
+
+    goto :goto_1
+
+    :cond_9
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "Reverse portrait not supported"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

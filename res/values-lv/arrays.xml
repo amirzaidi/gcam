@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Skatīt panorāmu</item>
+        <item>Kopīgot panorāmu</item>
+        <item>Kopīgot pakalpojumā Maps</item>
+        <item>Izveidot mazu planētu</item>
+        <item>Dzēst</item>
+        <item>Sūtīt komandai, lai atkļūdotu</item>
+        <item>Veidot panorāmas salaidumu</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Veidot panorāmas salaidumu</item>
+    </string-array>
+</resources>

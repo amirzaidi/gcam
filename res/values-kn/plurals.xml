@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d ಫೋಟೋಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ಫೋಟೋಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d ಉತ್ತಮ ಫೋಟೋಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ಉತ್ತಮ ಫೋಟೋಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">ಬರ್ಸ್ಟ್ (%d ಫೋಟೋಗಳು)</item>
+        <item quantity="one">ಬರ್ಸ್ಟ್ (%d ಫೋಟೋಗಳು)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d ಮುಖಗಳು.</item>
+        <item quantity="one">%1$d ಮುಖಗಳು.</item>
+    </plurals>
+</resources>

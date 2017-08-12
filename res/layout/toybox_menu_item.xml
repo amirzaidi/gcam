@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/toybox_menu_item" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/toybox_menu_icon_container_width" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/menu_item_icon" android:layout_width="@dimen/toybox_menu_icon_size" android:layout_height="@dimen/toybox_menu_icon_size" />
+    </FrameLayout>
+    <TextView android:id="@id/menu_item_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/ToyboxMenuTextStyle" />
+</LinearLayout>

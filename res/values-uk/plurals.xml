@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Збережено %1$d фотографії</item>
+        <item quantity="one">Збережено %1$d фотографію</item>
+        <item quantity="few">Збережено %1$d фотографії</item>
+        <item quantity="many">Збережено %1$d фотографій</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d найкращої фотографії збережено</item>
+        <item quantity="one">%1$d найкращу фотографію збережено</item>
+        <item quantity="few">%1$d найкращі фотографії збережено</item>
+        <item quantity="many">%1$d найкращих фотографій збережено</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Серія фотографій (%d)</item>
+        <item quantity="one">Серія фотографій (%d)</item>
+        <item quantity="few">Серія фотографій (%d)</item>
+        <item quantity="many">Серія фотографій (%d)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d обличчя.</item>
+        <item quantity="one">%1$d обличчя.</item>
+        <item quantity="few">%1$d обличчя.</item>
+        <item quantity="many">%1$d облич.</item>
+    </plurals>
+</resources>

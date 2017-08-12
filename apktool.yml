@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ogcog.apk
+compressionType: false
+doNotCompress:
+- arsc
+- apk
+- bin
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '25'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.4
+versionInfo:
+  versionCode: '41096443'
+  versionName: 4.3.016.147548696

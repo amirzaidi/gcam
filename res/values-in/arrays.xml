@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Tampilkan panorama</item>
+        <item>Bagikan panorama</item>
+        <item>Bagikan dengan Maps</item>
+        <item>Buat planet kecil</item>
+        <item>Hapus</item>
+        <item>Kirim ke tim untuk debugging</item>
+        <item>Gabungkan panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Gabungkan panorama</item>
+    </string-array>
+</resources>
