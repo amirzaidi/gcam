@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.GoogleCamera" platformBuildVersionCode="26" platformBuildVersionName="O">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.GoogleCamera" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
     <original-package android:name="com.android.camera2"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -110,7 +110,7 @@
         <service android:exported="true" android:name="com.google.android.apps.camera.legacy.app.prewarm.NoOpPrewarmService"/>
         <service android:exported="false" android:name="com.google.android.apps.camera.legacy.app.silentfeedback.SilentFeedbackService" android:process=":crash_report"/>
         <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIAtBj1ElOYwhIB-X9XDJr91_j0tTe8PPt6pZmnw"/>
-        <provider android:authorities="com.google.android.apps.camera.specialtypes.SpecialTypesProvider" android:exported="true" android:name="com.google.android.apps.camera.gallery.CameraContentProvider" android:syncable="false"/>
+        <provider android:authorities="com.google.android.apps.camera.specialtypes.SpecialTypesProvider1" android:exported="true" android:name="com.google.android.apps.camera.gallery.CameraContentProvider" android:syncable="false"/>
         <activity android:label="VideoPlayer" android:launchMode="standard" android:name="com.google.android.apps.camera.videoplayer.VideoPlayerActivity" android:theme="@style/Theme.SecureVideoPlayer"/>
         <activity android:exported="true" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity" android:theme="@style/Theme.AppCompat.Light"/>
         <activity android:exported="false" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.LicenseActivity" android:theme="@style/Theme.AppCompat.Light"/>

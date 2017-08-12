@@ -2247,6 +2247,8 @@
 
     move-result v2
 
+    const/4 v2, 0x0
+
     if-nez v2, :cond_0
 
     iget-object v2, v1, Lcom/google/android/apps/camera/config/GservicesHelper;->b:Lcom/google/android/apps/camera/util/ApiHelper;
@@ -2286,6 +2288,8 @@
     invoke-virtual {v2}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v2
+
+    const/4 v2, 0x1
 
     if-eqz v2, :cond_1
 

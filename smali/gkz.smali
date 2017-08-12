@@ -29,6 +29,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-nez v0, :cond_0
 
     :goto_0
@@ -39,6 +41,8 @@
 
     const-string v1, "QCAM-AA"
 
+    sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
+
     invoke-virtual {p1, v0, v1}, Lhjw;->a(ILjava/lang/Object;)Lhkg;
 
     move-result-object v0
@@ -48,6 +52,8 @@
     sget v0, Lhjw;->d:I
 
     const-string v1, "QCAM-AA"
+
+    sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Lhjw;->a(ILjava/lang/Object;)Lhkg;
 

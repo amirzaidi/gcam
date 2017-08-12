@@ -191,6 +191,8 @@
 
     sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
+    const-string v1, "Google"
+
     invoke-direct {p0, v0, v1}, Lhki;->a(ILjava/lang/Object;)V
 
     sget v0, Lhjw;->e:I

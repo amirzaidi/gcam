@@ -109,6 +109,8 @@
 
     move-result v2
 
+    const/4 v2, 0x1
+
     if-eqz v2, :cond_1
 
     :cond_0

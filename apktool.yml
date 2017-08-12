@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: gcog.apk
+apkFileName: gcedit.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -12,7 +12,7 @@ packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '25'
+  minSdkVersion: '23'
   targetSdkVersion: '26'
 sharedLibrary: false
 unknownFiles: {}

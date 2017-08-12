@@ -338,6 +338,8 @@
 
     move-result v5
 
+    const/4 v5, 0x1
+
     if-eqz v5, :cond_3
 
     :cond_0
@@ -605,6 +607,8 @@
     invoke-virtual {v5}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v5
+
+    const/4 v5, 0x1
 
     if-eqz v5, :cond_3
 
@@ -2933,6 +2937,8 @@
     invoke-virtual {v3}, Lcom/google/android/apps/camera/util/ApiHelper;->isPixel2017()Z
 
     move-result v3
+
+    const/4 v3, 0x1
 
     if-eqz v3, :cond_3
 
