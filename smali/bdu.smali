@@ -41,6 +41,10 @@
 
     if-eq v9, v12, :cond_0
 
+    const v12, 0x1e
+
+    if-ne v10, v12, :cond_0
+
     const v10, 0x3c
 
     :cond_0
