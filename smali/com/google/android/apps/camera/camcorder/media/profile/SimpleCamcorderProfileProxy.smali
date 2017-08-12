@@ -230,10 +230,19 @@
 .end method
 
 .method public final videoFrameRate()I
-    .locals 1
+    .locals 2
 
     iget v0, p0, Lcom/google/android/apps/camera/camcorder/media/profile/SimpleCamcorderProfileProxy;->videoFrameRate:I
 
+    const v1, 0x870
+
+    iget v2, p0, Lcom/google/android/apps/camera/camcorder/media/profile/SimpleCamcorderProfileProxy;->videoFrameHeight:I
+
+    if-eq v1, v2, :cond_0
+
+    const v0, 0x3c
+
+    :cond_0
     return v0
 .end method
 
