@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.camera.focusindicator.FocusIndicatorRingView android:id="@id/focus_indicator_ring" android:layout_width="@dimen/focus_indicator_ring_view_size" android:layout_height="@dimen/focus_indicator_ring_view_size" />
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/focus_indicator_debug_hud" android:background="@android:color/transparent" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lines="2" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textIsSelectable="false" android:fontFamily="sans-serif" android:textAlignment="center" />
+</RelativeLayout>

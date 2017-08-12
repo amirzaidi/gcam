@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/done_button" android:background="@drawable/done_button_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/refocus_done_button_width" android:layout_height="@dimen/refocus_done_button_height" android:src="@drawable/ic_done_normal" />
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="@dimen/refocus_done_button_height" android:text="@string/refocus_editor_button_text_done" android:paddingEnd="15.0dip" android:layout_marginStart="@dimen/refocus_done_button_width" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.apps.refocus.viewer.RGBZView android:id="@id/render_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.apps.refocus.viewer.RGBZFocusControls android:id="@id/focus_controls" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.google.android.apps.refocus.viewer.RefocusBokehControlBar android:id="@id/refocus_bokeh_control" android:layout_width="fill_parent" android:layout_height="@dimen/refocus_control_bar_height" />
+</LinearLayout>

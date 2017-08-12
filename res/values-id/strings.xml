@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferences_license_summary">Detail lisensi untuk perangkat lunak sumber terbuka</string>
+    <string name="preferences_license_title">Lisensi sumber terbuka</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Kuva panoraam</item>
+        <item>Jaga panoraami</item>
+        <item>Teenusega Maps jagamine</item>
+        <item>Väikse planeedi loomine</item>
+        <item>Kustuta</item>
+        <item>Saada tiimile silumiseks</item>
+        <item>Liida panoraam</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Liida panoraam</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>ਪਨੋਰਮਾ ਦੇਖੋ</item>
+        <item>ਪਨੋਰਮਾ ਸਾਂਝਾ ਕਰੋ</item>
+        <item>ਨਕਸ਼ੇ ਨਾਲ ਸਾਂਝਾ ਕਰੋ</item>
+        <item>ਛੋਟਾ ਗ੍ਰਹਿ ਬਣਾਓ</item>
+        <item>ਮਿਟਾਓ</item>
+        <item>ਡੀਬਗਿੰਗ ਲਈ ਟੀਮ ਨੂੰ ਭੇਜੋ</item>
+        <item>ਪਨੋਰਮਾ ਸਟਿਚ ਕਰੋ</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>ਪਨੋਰਮਾ ਸਟਿਚ ਕਰੋ</item>
+    </string-array>
+</resources>

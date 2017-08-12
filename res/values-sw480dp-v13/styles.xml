@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CameraActivityLayout" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/settings_page_listview_width</item>
+    </style>
+</resources>

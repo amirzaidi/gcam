@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.camera.legacy.app.ui.MainActivityLayout android:id="@id/activity_root_view" android:background="@color/main_layout_background_color" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <requestFocus />
+    <include layout="@layout/preview_backed_with_textureview" />
+    <include layout="@layout/viewfinder" />
+    <ViewStub android:id="@id/camera_frame_bottom_layout_stub" android:layout="@layout/camera" android:inflatedId="@id/camera" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/viewfinder_cover" />
+    <ImageView android:id="@id/intent_review_imageview" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <com.google.android.apps.camera.bottombar.BottomBar android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/camera_frame_overlay_layout_stub" android:layout="@layout/camera_overlay" android:inflatedId="@id/camera_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/onscreen_system_health_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.google.android.apps.camera.legacy.app.ui.MainActivityLayout>

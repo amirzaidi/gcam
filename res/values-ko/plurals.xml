@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">사진 %1$d개 저장됨</item>
+        <item quantity="one">사진 %1$d개 저장됨</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">최고의 사진 %1$d장 저장됨</item>
+        <item quantity="one">최고의 사진 %1$d장 저장됨</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">버스트(사진 %d장)</item>
+        <item quantity="one">버스트(사진 %d장)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">얼굴 %1$d개</item>
+        <item quantity="one">얼굴 %1$d개</item>
+    </plurals>
+</resources>

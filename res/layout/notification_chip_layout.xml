@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/notification_chip_layout_margin_top" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:typeface="normal" android:textColor="@color/notification_chip_text_color" android:layout_gravity="center_horizontal" android:id="@id/text_view" android:background="@drawable/notification_chip_background" android:paddingLeft="@dimen/notification_chip_padding_left" android:paddingTop="@dimen/notification_chip_padding_top" android:paddingRight="@dimen/notification_chip_padding_right" android:paddingBottom="@dimen/notification_chip_padding_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:textAlignment="center" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

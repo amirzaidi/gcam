@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Посмотреть</item>
+        <item>Отправить</item>
+        <item>Открыть доступ Картам</item>
+        <item>Создать круговую панораму</item>
+        <item>Удалить</item>
+        <item>Отправить на отладку</item>
+        <item>Создать панораму</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Создать панораму</item>
+    </string-array>
+</resources>

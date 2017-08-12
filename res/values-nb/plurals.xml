@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d fotografier er lagret</item>
+        <item quantity="one">%1$d fotografi er lagret</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">De %1$d beste bildene er lagret</item>
+        <item quantity="one">%1$d: Det beste bildet er lagret</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Serie (%d bilder)</item>
+        <item quantity="one">Serie (%d bilde)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d ansikter.</item>
+        <item quantity="one">%1$d ansikt.</item>
+    </plurals>
+</resources>

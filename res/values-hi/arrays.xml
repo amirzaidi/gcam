@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>पैनोरामा देखें</item>
+        <item>पैनोरामा को साझा करें</item>
+        <item>मानचित्र के साथ साझा करें</item>
+        <item>छोटा ग्रह बनाएं</item>
+        <item>हटाएं</item>
+        <item>डीबगिंग के लिए टीम को भेजें</item>
+        <item>पैनोरामा स्टिच करें</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>पैनोरामा स्टिच करें</item>
+    </string-array>
+</resources>

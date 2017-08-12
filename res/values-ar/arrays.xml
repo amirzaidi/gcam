@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>عرض بانوراما</item>
+        <item>مشاركة بانوراما</item>
+        <item>المشاركة مع خرائط</item>
+        <item>إنشاء كوكب صغير</item>
+        <item>حذف</item>
+        <item>إرسال إلى الفريق لإجراء تصحيح</item>
+        <item>تركيب بانوراما</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>تركيب بانوراما</item>
+    </string-array>
+</resources>

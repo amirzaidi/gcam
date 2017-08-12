@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/filmstrip_bottom_panel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bottom_control_panel" android:paddingTop="@dimen/filmstrip_bottom_control_padding_top" android:paddingBottom="@dimen/filmstrip_bottom_control_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FilmstripBottomControlPanel">
+            <FrameLayout android:id="@id/filmstrip_bottom_control_share_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:id="@id/filmstrip_bottom_control_share" android:visibility="invisible" android:src="@drawable/ic_share_white_24dp" android:contentDescription="@string/share_button_description" style="@style/FilmstripBottomControlButton" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/filmstrip_bottom_control_view_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.apps.camera.legacy.app.filmstrip.widget.ExternalViewerButton android:id="@id/filmstrip_bottom_control_view" android:visibility="gone" android:src="@drawable/ic_view_photosphere" android:contentDescription="@string/view_button_description" style="@style/FilmstripBottomControlButton" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/filmstrip_bottom_control_edit_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:id="@id/filmstrip_bottom_control_edit" android:visibility="gone" android:src="@drawable/ic_edit_white_24dp" android:contentDescription="@string/edit_button_description" style="@style/FilmstripBottomControlButton" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/filmstrip_bottom_control_details_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:layout_gravity="center" android:id="@id/filmstrip_bottom_control_details" android:visibility="invisible" android:src="@drawable/ic_info_white_24dp" android:contentDescription="@string/details_button_description" style="@style/FilmstripBottomControlButton" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/filmstrip_bottom_control_delete_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:id="@id/filmstrip_bottom_control_delete" android:visibility="invisible" android:src="@drawable/ic_delete_white_24dp" android:contentDescription="@string/delete_button_description" style="@style/FilmstripBottomControlButton" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/bottom_progress_error_panel" android:visibility="gone" android:layout_width="@dimen/filmstrip_bottom_control_layout_size" android:layout_height="@dimen/filmstrip_bottom_control_button_size">
+            <ImageView android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_error_normal" android:scaleType="centerInside" />
+            <TextView android:id="@id/bottom_progress_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilmstripBottomProgressText" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/bottom_progress_panel" android:visibility="gone" android:layout_width="@dimen/filmstrip_bottom_control_layout_size" android:layout_height="@dimen/filmstrip_bottom_control_button_size">
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/bottom_session_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilmstripBottomProgressText" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

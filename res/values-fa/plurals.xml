@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d عکس ذخیره شد</item>
+        <item quantity="one">%1$d عکس ذخیره شد</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d عکس از بهترین عکس‌ها ذخیره شد</item>
+        <item quantity="one">%1$d عکس از بهترین عکس‌ها ذخیره شد</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">رگباری (%d عکس)</item>
+        <item quantity="one">رگباری (%d عکس)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d چهره.</item>
+        <item quantity="one">%1$d چهره.</item>
+    </plurals>
+</resources>

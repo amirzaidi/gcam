@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Näytä panoraama</item>
+        <item>Jaa panoraama</item>
+        <item>Jaa Mapsissa</item>
+        <item>Luo pieni planeetta</item>
+        <item>Poista</item>
+        <item>Lähetä tiimille vianetsintää varten</item>
+        <item>Yhdistä panoraama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Yhdistä panoraama</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/optionsbar_layout" android:background="@color/optionsbar_background_closed" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/optionsbar_opened_layout" />
+    <include layout="@layout/optionsbar_closed_layout" />
+</FrameLayout>

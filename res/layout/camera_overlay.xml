@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/camera_app_root_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/onscreen_debug_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/tutorials_placeholder_wrapper" android:background="@color/fullscreen_dialog_background_color" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+    </FrameLayout>
+    <fragment android:name="com.google.android.apps.camera.legacy.app.filmstrip.FilmstripFragmentImpl" android:id="@id/filmstrip_fragment" android:layout="@layout/camera_filmstrip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.apps.camera.uiutils.ReplaceableView android:id="@id/iris_fullscreen" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</FrameLayout>

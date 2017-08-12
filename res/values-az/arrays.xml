@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Panorama</item>
+        <item>Panoramanı paylaş</item>
+        <item>Xəritədə paylaşın</item>
+        <item>Kiçik planet yaradın</item>
+        <item>Silin</item>
+        <item>Sazlanma üçün komandaya göndərin</item>
+        <item>Panoramanı calayın</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Panoramanı calayın</item>
+    </string-array>
+</resources>

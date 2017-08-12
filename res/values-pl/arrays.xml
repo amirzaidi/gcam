@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Wyświetl panoramę</item>
+        <item>Udostępnij panoramę</item>
+        <item>Udostępnij w Mapach Google</item>
+        <item>Utwórz planetkę</item>
+        <item>Usuń</item>
+        <item>Wyślij zespołowi do debugowania</item>
+        <item>Zszyj panoramę</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Zszyj panoramę</item>
+    </string-array>
+</resources>

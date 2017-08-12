@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>విశాల దృశ్యాన్ని వీక్షించండి</item>
+        <item>విశాల దృశ్యాన్ని భాగస్వామ్యం చేయండి</item>
+        <item>మ్యాప్స్‌తో భాగస్వామ్యం చేయండి</item>
+        <item>చిన్న ప్లానెట్‌ను సృష్టించండి</item>
+        <item>తొలగించండి</item>
+        <item>డీబగ్గింగ్ కోసం బృందానికి పంపండి</item>
+        <item>విశాలదృశ్యం జోడించండి</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>విశాలదృశ్యం జోడించండి</item>
+    </string-array>
+</resources>

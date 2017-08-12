@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d ფოტო შენახულია</item>
+        <item quantity="one">%1$d ფოტო შენახულია</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d საუკეთესო ფოტო შენახულია</item>
+        <item quantity="one">%1$d საუკეთესო ფოტო შენახულია</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">ფოტოკოლექცია (%d ფოტო)</item>
+        <item quantity="one">ფოტოკოლექცია (%d ფოტო)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d სახე.</item>
+        <item quantity="one">%1$d სახე.</item>
+    </plurals>
+</resources>

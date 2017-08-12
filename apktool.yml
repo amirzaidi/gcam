@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: gcog.apk
+compressionType: false
+doNotCompress:
+- arsc
+- META-INF/services/com.google.protobuf.GeneratedExtensionRegistryLoader
+- apk
+- so
+- bin
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '25'
+  targetSdkVersion: '26'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.4
+versionInfo:
+  versionCode: '41155109'
+  versionName: 4.4.012.156195200

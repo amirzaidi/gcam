@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Angalia panorama</item>
+        <item>Shiriki panorama</item>
+        <item>Shiriki na Ramani</item>
+        <item>Unda sayari dogo</item>
+        <item>Futa</item>
+        <item>Tuma kwa timu ili kutatua</item>
+        <item>Tengeneza panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Tengeneza panorama</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">已儲存 %1$d 張相片</item>
+        <item quantity="one">已儲存 %1$d 張相片</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">已儲存 %1$d 張拍攝效果最好的相片</item>
+        <item quantity="one">已儲存 %1$d 張拍攝效果最好的相片</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">連拍 (共 %d 張)</item>
+        <item quantity="one">連拍 (共 %d 張)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d 張臉孔。</item>
+        <item quantity="one">%1$d 張臉孔。</item>
+    </plurals>
+</resources>

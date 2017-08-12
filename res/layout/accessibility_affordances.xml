@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:id="@id/accessibility_affordances" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/accessibility_zoom_minus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_zoom_minus" android:contentDescription="@string/accessibility_mode_zoom_minus" />
+    <Button android:id="@id/accessibility_zoom_plus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_zoom_plus" android:contentDescription="@string/accessibility_mode_zoom_plus" />
+    <Button android:id="@id/accessibility_burst_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_mode_burst" android:contentDescription="@string/accessibility_mode_burst" />
+</LinearLayout>

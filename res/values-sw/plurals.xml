@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Picha %1$d zimehifadhiwa</item>
+        <item quantity="one">Picha %1$d imehifadhiwa</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Imehifadhi picha%1$d</item>
+        <item quantity="one">Imehifadhi picha %1$d</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Picha za Kupiga kwa Mfululizo (picha %d)</item>
+        <item quantity="one">Picha za Kupiga kwa Mfululizo (picha %d)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">Nyuso %1$d.</item>
+        <item quantity="one">Uso %1$d.</item>
+    </plurals>
+</resources>

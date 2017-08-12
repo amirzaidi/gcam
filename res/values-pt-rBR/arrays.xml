@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Visualizar panorama</item>
+        <item>Compartilhar panorama</item>
+        <item>Compartilhar com o Google Maps</item>
+        <item>Criar um pequeno planeta</item>
+        <item>Excluir</item>
+        <item>Enviar à equipe para depuração</item>
+        <item>Costurar panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Costurar panorama</item>
+    </string-array>
+</resources>

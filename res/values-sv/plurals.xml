@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d foton sparades</item>
+        <item quantity="one">%1$d foto sparades</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d av de bästa fotona sparas</item>
+        <item quantity="one">%1$d av de bästa fotona sparas</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Fotoserie (%d bilder)</item>
+        <item quantity="one">Fotoserie (%d bild)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d ansikten.</item>
+        <item quantity="one">%1$d ansikte.</item>
+    </plurals>
+</resources>

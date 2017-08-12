@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Prikaži panoramu</item>
+        <item>Dijeli panoramu</item>
+        <item>Dijeli s Kartama</item>
+        <item>Napravi mali planet</item>
+        <item>Izbriši</item>
+        <item>Pošalji timu za ispravljanje pogrešaka</item>
+        <item>Spoji panoramu</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Spoji panoramu</item>
+    </string-array>
+</resources>

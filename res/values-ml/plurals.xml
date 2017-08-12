@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d ഫോട്ടോകൾ സംരക്ഷിച്ചു</item>
+        <item quantity="one">%1$d ഫോട്ടോ സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">മികച്ച %1$d ഫോട്ടോകൾ സംരക്ഷിച്ചു</item>
+        <item quantity="one">മികച്ച %1$d ഫോട്ടോ സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">ബഴ്സ്റ്റ് (%d ഫോട്ടോകൾ)</item>
+        <item quantity="one">ബഴ്സ്റ്റ് (%d ഫോട്ടോ)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d മുഖങ്ങൾ.</item>
+        <item quantity="one">%1$d മുഖങ്ങൾ.</item>
+    </plurals>
+</resources>

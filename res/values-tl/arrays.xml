@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Tingnan ang panorama</item>
+        <item>Ibahagi ang panorama</item>
+        <item>Ibahagi sa Maps</item>
+        <item>Lumikha ng maliit na planeta</item>
+        <item>I-delete</item>
+        <item>Ipadala sa koponan para sa pag-debug</item>
+        <item>I-stitch ang panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>I-stitch ang panorama</item>
+    </string-array>
+</resources>

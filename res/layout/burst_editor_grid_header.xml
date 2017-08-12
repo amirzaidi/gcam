@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/burst_grid_section_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/section_title" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/BurstEditorSectionHeaderTitle" />
+    <TextView android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/section_num_frames" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/BurstEditorSectionHeaderNumFrames" />
+</FrameLayout>

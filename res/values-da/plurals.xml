@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d billeder blev gemt</item>
+        <item quantity="one">%1$d billede blev gemt</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d bedste billeder blev gemt</item>
+        <item quantity="one">%1$d bedste billede blev gemt</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Fotoserie (%d fotos)</item>
+        <item quantity="one">Fotoserie (%d foto)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d ansigter.</item>
+        <item quantity="one">%1$d ansigt.</item>
+    </plurals>
+</resources>

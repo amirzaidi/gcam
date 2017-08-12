@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d foto yadda saxlandı</item>
+        <item quantity="one">%1$d foto yadda saxlandı</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">ən yaxşı %1$d foto yadda saxlandı</item>
+        <item quantity="one">ən yaxşı %1$d foto yadda saxlandı</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Parçalama (%d foto)</item>
+        <item quantity="one">Parçalama (%d foto)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d üz.</item>
+        <item quantity="one">%1$d üz.</item>
+    </plurals>
+</resources>

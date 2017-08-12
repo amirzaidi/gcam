@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Saglabāti %1$d fotoattēli</item>
+        <item quantity="zero">Saglabāti %1$d fotoattēli</item>
+        <item quantity="one">Saglabāts %1$d fotoattēls</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Saglabāti %1$d labākie fotoattēli</item>
+        <item quantity="zero">Saglabāti %1$d labākie fotoattēli</item>
+        <item quantity="one">Saglabāts %1$d labākais fotoattēls</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Fotoattēlu sērija (%d attēli)</item>
+        <item quantity="zero">Fotoattēlu sērija (%d attēli)</item>
+        <item quantity="one">Fotoattēlu sērija (%d attēls)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d sejas.</item>
+        <item quantity="zero">%1$d seju.</item>
+        <item quantity="one">%1$d seja.</item>
+    </plurals>
+</resources>

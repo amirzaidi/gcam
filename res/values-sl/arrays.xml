@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Prikaži panoramo</item>
+        <item>Deli panoramo z drugimi</item>
+        <item>Objavi v Google Zemljevidih</item>
+        <item>Ustvari planetek</item>
+        <item>Izbriši</item>
+        <item>Pošlji skupini za odpravljanje napak</item>
+        <item>Sestavi panoramo</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Sestavi panoramo</item>
+    </string-array>
+</resources>

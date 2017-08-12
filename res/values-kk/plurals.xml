@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d сурет сақталды</item>
+        <item quantity="one">%1$d сурет сақталды</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Ең жақсы %1$d сурет сақталды</item>
+        <item quantity="one">Ең жақсы %1$d сурет сақталды</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Burst жинағы (%d фотосурет)</item>
+        <item quantity="one">Burst жинағы (%d фотосурет)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d адамның жүзі.</item>
+        <item quantity="one">%1$d адамның жүзі.</item>
+    </plurals>
+</resources>

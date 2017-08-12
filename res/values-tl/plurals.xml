@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d na larawan ang na-save</item>
+        <item quantity="one">%1$d larawan ang na-save</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Na-save ang %1$d na pinakamagandang larawan</item>
+        <item quantity="one">Na-save ang %1$d pinakamagandang larawan</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Burst (%d na larawan)</item>
+        <item quantity="one">Burst (%d larawan)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d na mukha.</item>
+        <item quantity="one">%1$d mukha.</item>
+    </plurals>
+</resources>

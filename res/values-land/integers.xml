@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="SRI_pano_layout_weight">3</integer>
+</resources>

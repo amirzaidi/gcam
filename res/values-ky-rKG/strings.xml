@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s учурда жеткиликсиз бир же бир нече Google Play кызматтарын талап кылууда. Жардам үчүн өндүрүүчүгө кайрылыңыз.</string>
+    <string name="common_google_play_services_enable_button">Google Play кызматтарын иштетүү</string>
+    <string name="common_google_play_services_enable_text">Google Play кызматтарын иштетмейиңизче %1$s иштебейт.</string>
+    <string name="common_google_play_services_enable_title">Google Play кызматтарын иштетүү</string>
+    <string name="common_google_play_services_install_button">Google Play кызматтарын алуу</string>
+    <string name="common_google_play_services_install_text_phone">Google Play кызматтарысыз %1$s иштебейт, алар телефонуңузда жок болуп жатат.</string>
+    <string name="common_google_play_services_install_text_tablet">Google Play кызматтарысыз %1$s иштебейт, алар планшетиңизде жок болуп жатат.</string>
+    <string name="common_google_play_services_install_title">Google Play кызматтарын алуу</string>
+    <string name="common_google_play_services_invalid_account_text">Көрсөтүлгөн каттоо эсеби бул түзмөктө жок. Башка каттоо эсебин тандаңыз.</string>
+    <string name="common_google_play_services_invalid_account_title">Каттоо эсеби жараксыз</string>
+    <string name="common_google_play_services_network_error_text">Google Play Кызматтарына туташуу үчүн, мобилдик туташуу талап кылынат.</string>
+    <string name="common_google_play_services_network_error_title">Тармак катасы</string>
+    <string name="common_google_play_services_notification_ticker">Google Play кызматтарынын катасы</string>
+    <string name="common_google_play_services_restricted_profile_text">Каттоо эсептерине чектелген профилден кирүү колдоого алынбайт.</string>
+    <string name="common_google_play_services_restricted_profile_title">Чектелген профиль</string>
+    <string name="common_google_play_services_sign_in_failed_text">Белгиленген каттоо эсепке кирүү катасы. Башка каттоо эсебин тандаңыз.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Каттоо эсебине кирбей калды</string>
+    <string name="common_google_play_services_unknown_issue">%1$s Google Play кызматтары боюнча маселеге дуушар болууда. Эгер көйгөй жоголбосо, жардам үчүн иштеп чыгуучуга кайрылыңыз.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s Google Play кызматтарына ишенет, аларды түзмөгүңүз колдоого албайт. Жардам үчүн өндүрүүчүгө кайрылыңыз.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play кызматтары</string>
+    <string name="common_google_play_services_update_button">Жаңыртуу</string>
+    <string name="common_google_play_services_update_text">Google Play кызматтары жаңыртылмайынча %1$s иштебейт.</string>
+    <string name="common_google_play_services_update_title">Google Play кызматтарын жаңыртуу</string>
+    <string name="common_google_play_services_updating_text">Google Play кызматтарысыз %1$s иштебейт, алар учурда жаңыртылууда.</string>
+    <string name="common_google_play_services_updating_title">Google Play кызматтары жаңыртылууда</string>
+    <string name="common_google_play_services_wear_update_text">Google Play кызматтарынын жаңы версиясы талап кылынат. Бир аздан кийин ал өзү эле жаңыртылат.</string>
+    <string name="common_open_on_phone">Телефондо ачык</string>
+    <string name="common_signin_button_text">Кирүү</string>
+    <string name="common_signin_button_text_long">Google менен кирүү</string>
+    <string name="place_autocomplete_clear_button">Издөөнү тазалоо</string>
+    <string name="place_autocomplete_search_hint">Издөө</string>
+</resources>

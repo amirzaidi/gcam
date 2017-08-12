@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <item type="dimen" name="onscreen_indicators_height">@dimen/onscreen_indicators_height_large</item>
+    <item type="dimen" name="setting_item_icon_width">@dimen/setting_item_icon_width_large</item>
+    <item type="dimen" name="setting_popup_right_margin">@dimen/setting_popup_right_margin_large</item>
+    <item type="dimen" name="setting_popup_window_width">@dimen/setting_popup_window_width_large</item>
+    <item type="dimen" name="setting_row_height">@dimen/setting_row_height_large</item>
+    <dimen name="category_panel_height">94.0dip</dimen>
+    <dimen name="category_panel_icon_size">72.0dip</dimen>
+    <dimen name="category_panel_margin">4.0dip</dimen>
+    <dimen name="category_panel_text_size">14.0dip</dimen>
+</resources>

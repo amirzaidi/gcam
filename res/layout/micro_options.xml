@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/micro_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/micro_off" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/micro_on" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+</LinearLayout>

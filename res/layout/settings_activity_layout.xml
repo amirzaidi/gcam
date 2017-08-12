@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/settings_activity_content" android:layout_height="fill_parent" style="@style/Theme.CameraActivityLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

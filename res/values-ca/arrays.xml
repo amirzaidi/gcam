@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Visualitza la panoràmica</item>
+        <item>Comparteix la panoràmica</item>
+        <item>Comparteix amb Google Maps</item>
+        <item>Crea un petit planeta</item>
+        <item>Suprimeix</item>
+        <item>"Envia-ho a l'equip per depurar"</item>
+        <item>Uneix la panoràmica</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Uneix la panoràmica</item>
+    </string-array>
+</resources>

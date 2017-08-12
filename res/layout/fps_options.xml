@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/fps_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/fps_30" android:contentDescription="@string/fps_30_desc" optionsbar:camera_option_label="@string/fps_desc" optionsbar:camera_option_icon="@drawable/ic_fps_expanded_30" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/fps_60" android:contentDescription="@string/fps_60_desc" optionsbar:camera_option_label="@string/fps_desc" optionsbar:camera_option_icon="@drawable/ic_fps_expanded_60" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+</LinearLayout>

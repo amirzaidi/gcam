@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Դիտել համայնապատկեր</item>
+        <item>Կիսվել համայնապատկերով</item>
+        <item>Կիսվել Քարտեզներում</item>
+        <item>Ստեղծել փոքրիկ մոլորակ</item>
+        <item>Ջնջել</item>
+        <item>Ուղարկել թիմին` կարգաբերման համար</item>
+        <item>Ստեղծել համայնապատկեր</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Ստեղծել համայնապատկեր</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/recording_time_rect" style="@style/ViewfinderLabelLayout">
+        <include layout="@layout/viewfinder_labels_video" />
+    </FrameLayout>
+</merge>

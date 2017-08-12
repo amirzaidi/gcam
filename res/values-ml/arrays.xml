@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>പനോരമ കാണുക</item>
+        <item>പനോരമ പങ്കിടുക</item>
+        <item>മാപ്സിൽ പങ്കിടുക</item>
+        <item>ചെറിയ പ്ലാനെറ്റ് സൃഷ്‌ടിക്കുക</item>
+        <item>ഇല്ലാതാക്കുക</item>
+        <item>ഡീബഗ് ചെയ്യുന്നതിനായി ടീമിനെ അയയ്ക്കുക</item>
+        <item>പനോരമ സ്റ്റിച്ചുചെയ്യുക</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>പനോരമ സ്റ്റിച്ചുചെയ്യുക</item>
+    </string-array>
+</resources>

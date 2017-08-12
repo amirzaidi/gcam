@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Panorama ansehen</item>
+        <item>Panorama teilen</item>
+        <item>Mit Google Maps teilen</item>
+        <item>Kleinen Planeten erstellen</item>
+        <item>Löschen</item>
+        <item>Zum Debuggen an Team senden</item>
+        <item>Panorama zusammenfügen</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Panorama zusammenfügen</item>
+    </string-array>
+</resources>

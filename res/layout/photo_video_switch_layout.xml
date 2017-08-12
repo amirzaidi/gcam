@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/shutter_button_holder" android:layout_width="@dimen/shutter_button_holder_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/photo_switch_button" android:paddingRight="@dimen/photo_video_switch_padding_horizontal" android:layout_width="@dimen/photo_video_switch_size" android:layout_height="@dimen/bottom_bar_side_content_size" android:layout_toLeftOf="@id/shutter_button" android:layout_centerVertical="true" android:translationX="@dimen/photo_video_switch_translation"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.google.android.apps.camera.shutterbutton.SmoothRotateSwitchIcon android:layout_gravity="center" android:id="@id/smooth_rotate_photo_switch_icon" android:layout_width="@dimen/photo_video_switch_inner_size" android:layout_height="@dimen/photo_video_switch_inner_size" android:src="@drawable/photo_switch_icon" />
+    </FrameLayout>
+    <com.google.android.apps.camera.shutterbutton.ShutterButton android:id="@id/shutter_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:elevation="2.0dip" />
+    <FrameLayout android:id="@id/video_switch_button" android:paddingLeft="@dimen/photo_video_switch_padding_horizontal" android:layout_width="@dimen/photo_video_switch_size" android:layout_height="@dimen/bottom_bar_side_content_size" android:layout_toRightOf="@id/shutter_button" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.google.android.apps.camera.shutterbutton.SmoothRotateSwitchIcon android:layout_gravity="center" android:id="@id/smooth_rotate_video_switch_icon" android:layout_width="@dimen/photo_video_switch_inner_size" android:layout_height="@dimen/photo_video_switch_inner_size" android:src="@drawable/video_switch_icon" />
+    </FrameLayout>
+</merge>

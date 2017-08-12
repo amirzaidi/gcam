@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s erabiltzeko, unean erabilgarri ez dagoen beste Google Play zerbitzu bat edo gehiago behar dira. Laguntza lortzeko, jarri garatzailearekin harremanetan.</string>
+    <string name="common_google_play_services_enable_button">Gaitu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_enable_text">%1$s aplikazioak ez du funtzionatuko Google Play zerbitzuak gaitzen ez badituzu.</string>
+    <string name="common_google_play_services_enable_title">Gaitu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_install_button">Lortu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_install_text_phone">%1$s ez da exekutatuko Google Play zerbitzurik gabe, baina ez dituzu telefonoan.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s ez da exekutatuko Google Play zerbitzurik gabe, baina ez dituzu tabletan.</string>
+    <string name="common_google_play_services_install_title">Lortu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_invalid_account_text">Zehaztutako kontua ez dago gailuan. Aukeratu beste kontu bat.</string>
+    <string name="common_google_play_services_invalid_account_title">Kontuak ez du balio</string>
+    <string name="common_google_play_services_network_error_text">Datu-konexioa behar da Google Play zerbitzuetara konektatzeko.</string>
+    <string name="common_google_play_services_network_error_title">Sareko errorea</string>
+    <string name="common_google_play_services_notification_ticker">Google Play zerbitzuen errorea</string>
+    <string name="common_google_play_services_restricted_profile_text">Ez da onartzen profil murriztuetatik kontuetan sartzea.</string>
+    <string name="common_google_play_services_restricted_profile_title">Profil murriztua</string>
+    <string name="common_google_play_services_sign_in_failed_text">Errore bat gertatu da zehaztutako kontuan saioa hastean. Aukeratu beste kontu bat.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Ezin izan da hasi saioa</string>
+    <string name="common_google_play_services_unknown_issue">%1$s aplikazioak arazoak ditu Google Play zerbitzuekin. Arazoek badiraute, laguntza lortzeko, jarri garatzailearekin harremanetan.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s Google Play zerbitzuetan dago oinarrituta, baina zure gailuak ez ditu onartzen. Laguntza lortzeko, jarri fabrikatzailearekin harremanetan.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play zerbitzuak</string>
+    <string name="common_google_play_services_update_button">Eguneratu</string>
+    <string name="common_google_play_services_update_text">%1$s ez da exekutatuko Google Play zerbitzuak eguneratzen ez badituzu.</string>
+    <string name="common_google_play_services_update_title">Eguneratu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_updating_text">%1$s ez da exekutatuko Google Play zerbitzurik gabe; une honetan eguneratzen ari dira zerbitzuok.</string>
+    <string name="common_google_play_services_updating_title">Google Play zerbitzuak eguneratzen</string>
+    <string name="common_google_play_services_wear_update_text">Google Play zerbitzuen bertsio berria behar da. Berehala eguneratuko da automatikoki.</string>
+    <string name="common_open_on_phone">Ireki telefonoan</string>
+    <string name="common_signin_button_text">Hasi saioa</string>
+    <string name="common_signin_button_text_long">Hasi saioa Google-n</string>
+    <string name="place_autocomplete_clear_button">Garbitu bilaketa</string>
+    <string name="place_autocomplete_search_hint">Bilaketa</string>
+</resources>

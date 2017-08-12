@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:gravity="center" android:src="@drawable/ic_exposure_disabled" />
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/button_background_pressed_dark" />
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_exposure_normal" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/ic_exposure_normal" />
+    </item>
+</selector>

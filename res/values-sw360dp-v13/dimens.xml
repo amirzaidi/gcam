@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_content_size">96.0dip</dimen>
+    <dimen name="bottom_bar_side_content_size">80.0dip</dimen>
+    <dimen name="photo_button_diameter">76.0dip</dimen>
+    <dimen name="photo_button_inner_diameter">64.0dip</dimen>
+    <dimen name="photo_video_switch_icon_size">24.0dip</dimen>
+    <dimen name="photo_video_switch_icon_top_margin">5.0dip</dimen>
+    <dimen name="photo_video_switch_inner_size">52.0dip</dimen>
+    <dimen name="photo_video_switch_padding_horizontal">5.0dip</dimen>
+    <dimen name="photo_video_switch_size">57.0dip</dimen>
+    <dimen name="photo_video_switch_translation">75.0dip</dimen>
+    <dimen name="shutter_button_click_elevation">4.0dip</dimen>
+    <dimen name="shutter_button_holder_width">210.0dip</dimen>
+    <dimen name="video_button_breathing_diameter">76.0dip</dimen>
+    <dimen name="video_button_inner_diameter">16.0dip</dimen>
+    <dimen name="video_button_stop_square_size">24.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/timer_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/timer_off" android:contentDescription="@string/timer_off_desc" optionsbar:camera_option_label="@string/timer_off_desc" optionsbar:camera_option_icon="@drawable/ic_timer_off" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/timer_3s" android:contentDescription="@string/timer_3_seconds_desc" optionsbar:camera_option_label="@string/timer_seconds_desc" optionsbar:camera_option_icon="@drawable/ic_timer_expanded_3s" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/timer_10s" android:contentDescription="@string/timer_10_seconds_desc" optionsbar:camera_option_label="@string/timer_seconds_desc" optionsbar:camera_option_icon="@drawable/ic_timer_expanded_10s" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+</LinearLayout>

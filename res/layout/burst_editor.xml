@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BurstEditor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/grid_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" android:layout_alignParentBottom="true" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Toolbar android:theme="@style/BurstEditorToolbarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/BurstEditorToolbar" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/share_icons" android:background="@drawable/filmstrip_bottom_bar_background" android:paddingTop="@dimen/filmstrip_bottom_control_padding_top" android:paddingBottom="@dimen/filmstrip_bottom_control_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/FilmstripBottomControlPanel">
+        <FrameLayout android:id="@id/filmstrip_bottom_control_share_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/share" android:src="@drawable/ic_share_white_24dp" android:contentDescription="@string/share_button_description" style="@style/FilmstripBottomControlButton" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/filmstrip_bottom_control_edit_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/edit" android:src="@drawable/ic_edit_white_24dp" android:contentDescription="@string/edit_button_description" style="@style/FilmstripBottomControlButton" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/filmstrip_bottom_control_delete_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/delete" android:src="@drawable/ic_delete_white_24dp" android:contentDescription="@string/delete_button_description" style="@style/FilmstripBottomControlButton" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/burst_editor_fade_layer" android:background="@color/burst_editor_fade_layer_color" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@id/burst_speed_dial" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" />
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="end" android:id="@id/burst_editor_fab" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="22.0dip" android:src="@drawable/ic_auto_awesome" android:contentDescription="@string/burst_editor_open_speed_dial_description" android:elevation="1.0dip" app:backgroundTint="@color/burst_editor_fab_bg_color" />
+    </LinearLayout>
+</RelativeLayout>

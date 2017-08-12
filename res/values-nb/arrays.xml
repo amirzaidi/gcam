@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Se panoramabilde</item>
+        <item>Del panoramabilde</item>
+        <item>Del med Google Maps</item>
+        <item>Lag en liten planet</item>
+        <item>Slett</item>
+        <item>Send til teamet for feilsøking</item>
+        <item>Sett sammen til panoramabilde</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Sett sammen til panoramabilde</item>
+    </string-array>
+</resources>

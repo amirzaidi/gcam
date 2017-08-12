@@ -1,0 +1,68 @@
+11:1946 OpenCV
+1969:2234 OpenCVX
+4223:10695 libnativehelper
+14927:694 ares
+15632:1084 Brotli
+16726:1901 bzip2
+18635:11232 cbc
+29876:11358 cctz
+41244:1554 ceres
+42810:5240 dng_sdk
+48073:1484 DynamicAnnotations
+49569:85392 Eigen 3
+134973:1870 freebsd
+136854:1088 giflib
+137951:26536 GRTE
+164498:1124 Halide
+165632:19442 ICU4C
+185114:10695 Android Annotations Support Library
+195844:10695 Android Compat Support Library
+206575:10695 Android Core UI Support Library
+217309:10691 Android Core Utils Support Library
+228035:10695 Android Design Support Library
+238768:10695 Android Fragments Support Library
+249500:10695 Android Graphics Support Library
+260236:10691 Android Media Compat Support Library
+270963:10695 Android Percent Support Library
+281697:10691 Android Transition Support Library
+292425:10695 Android Compatibility Library v4
+303157:10695 Android Compatibility Library v7
+313868:16013 Android SDK
+329892:11358 backup
+341260:4771 Glide
+346046:11358 Guava JDK5
+357422:1732 Protobuf Nano
+359173:1096 Animal Sniffer
+360285:11358 Google Auto
+371665:22655 Checker Framework
+394331:11358 Dagger
+405705:11357 Error Prone
+417073:11358 J2ObjC
+428443:11358 JSR 250
+439813:1602 JSR 305
+441427:11365 JSR 330
+452819:1056 touchimageview_android
+453904:11358 lib
+453904:11358 material_components
+465277:11362 Guava JDK7
+476651:4276 libjpeg
+480938:2266 lapack
+483215:20240 libcap
+503473:5545 libjpeg-turbo
+509030:5416 Libxml2
+514458:4535 libxsmm
+519007:9287 BoringSSL
+528309:11357 pcg_random
+539675:3182 PCRE
+542865:4155 png
+547041:1732 Protocol Buffers
+548781:1558 RE2
+550347:680 STL
+551036:1074 swig
+552119:1200 tiff
+553335:243 tz database
+553586:731 UTF
+554329:1535 XMPCore
+555874:2655 zippy
+558538:2500 zlib
+561050:1530 zstdlib

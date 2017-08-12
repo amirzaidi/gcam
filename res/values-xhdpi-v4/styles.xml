@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightCycleHelpScreenButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="LightCycleHelpScreenHeading">
+        <item name="android:textSize">27.0sp</item>
+    </style>
+    <style name="LightCycleHelpScreenNormalText">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+</resources>

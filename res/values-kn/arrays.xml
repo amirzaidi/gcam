@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>ಪನೋರಮಾ ವೀಕ್ಷಿಸಿ</item>
+        <item>ಪನೋರಮಾ ಹಂಚಿಕೊಳ್ಳಿ</item>
+        <item>ನಕ್ಷೆಗಳ ಮೂಲಕ ಹಂಚಿಕೊಳ್ಳಿ</item>
+        <item>ಸಣ್ಣ ಗ್ರಹವನ್ನು ರಚಿಸಿ</item>
+        <item>ಅಳಿಸಿ</item>
+        <item>ಡೀಬಗ್ ಮಾಡಲು ತಂಡಕ್ಕೆ ಕಳುಹಿಸಿ</item>
+        <item>ಪನೋರಮಾ ಸೇರಿಸಿ</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>ಪನೋರಮಾ ಸೇರಿಸಿ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Visa panoramabild</item>
+        <item>Dela panoramabild</item>
+        <item>Dela med Maps</item>
+        <item>Skapa liten planet</item>
+        <item>Ta bort</item>
+        <item>Skicka till teamet för felsökning</item>
+        <item>Sammanfoga panoramabild</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Sammanfoga panoramabild</item>
+    </string-array>
+</resources>

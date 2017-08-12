@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d ફોટા સાચવ્યાં</item>
+        <item quantity="one">%1$d ફોટા સાચવ્યાં</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d શ્રેષ્ઠ ફોટા સાચવ્યાં</item>
+        <item quantity="one">%1$d શ્રેષ્ઠ ફોટા સાચવ્યાં</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">બર્સ્ટ (%d ફોટા)</item>
+        <item quantity="one">બર્સ્ટ (%d ફોટા)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d ચહેરા.</item>
+        <item quantity="one">%1$d ચહેરા.</item>
+    </plurals>
+</resources>

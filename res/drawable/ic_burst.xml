@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_burst" android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="layer_8_outlines" android:translateX="4.0" android:translateY="24.0">
+        <group android:name="layer_8_outlines_pivot" android:translateX="-2.25" android:translateY="-14.25">
+            <clip-path android:name="mask_1" android:pathData="M 0.25,0.25 c 0.0,0.0 0.0,28.0 0.0,28.0 c 0.0,0.0 4.0,0.0 4.0,0.0 c 0.0,0.0 0.0,-28.0 0.0,-28.0 c 0.0,0.0 -4.0,0.0 -4.0,0.0 Z" />
+            <group android:name="group_1" android:translateX="2.25" android:translateY="14.25">
+                <path android:name="path_1" android:fillColor="#ffffffff" android:pathData="M -2.0,-14.0 c 0.0,0.0 4.0,0.0 4.0,0.0 c 0.0,0.0 0.0,28.0 0.0,28.0 c 0.0,0.0 -4.0,0.0 -4.0,0.0 c 0.0,0.0 0.0,-28.0 0.0,-28.0 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_7_outlines" android:translateX="12.0" android:translateY="24.0">
+        <group android:name="layer_7_outlines_pivot" android:translateX="-2.25" android:translateY="-14.25">
+            <group android:name="group_2" android:translateX="2.25" android:translateY="14.25">
+                <path android:name="path_2" android:fillColor="#ffffffff" android:pathData="M -2.0,-14.0 c 0.0,0.0 4.0,0.0 4.0,0.0 c 0.0,0.0 0.0,28.0 0.0,28.0 c 0.0,0.0 -4.0,0.0 -4.0,0.0 c 0.0,0.0 0.0,-28.0 0.0,-28.0 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_3_outlines" android:translateX="32.0" android:translateY="24.0">
+        <group android:name="layer_3_outlines_pivot" android:translateX="-14.25" android:translateY="-14.25">
+            <clip-path android:name="mask_2" android:pathData="M -1.75,-2.453125 c 0.0,0.0 0.0,32.703125 0.0,32.703125 c 0.0,0.0 32.0,0.0 32.0,0.0 c 0.0,0.0 0.0,-32.6953125 0.0,-32.6953125 c 0.0,0.0 -32.0,-0.0078125 -32.0,-0.0078125 Z" />
+            <group android:name="group_3" android:translateX="14.25" android:translateY="14.25">
+                <path android:name="path_3" android:fillColor="#ffffffff" android:pathData="M 12.0,-14.0 c 0.0,0.0 -24.0,0.0 -24.0,0.0 c -1.10000610352,0.0 -2.0,0.899993896484 -2.0,2.0 c 0.0,0.0 0.0,24.0 0.0,24.0 c 0.0,1.10000610352 0.899993896484,2.0 2.0,2.0 c 0.0,0.0 24.0,0.0 24.0,0.0 c 0.0,0.0 -4.06199645996,-4.0 -4.06199645996,-4.0 c 0.0,0.0 -17.93800354,0.0 -17.93800354,0.0 c 0.0,0.0 5.0,-6.30000305176 5.0,-6.30000305176 c 0.0,0.0 3.56999206543,4.30000305176 3.56999206543,4.30000305176 c 0.0,0.0 5.00001525879,-6.44000244141 5.00001525879,-6.44000244141 c 0.0,0.0 6.42999267578,8.44000244141 6.42999267578,8.44000244141 c 0.0,0.0 2.0,4.0 2.0,4.0 c 1.10000610352,0.0 2.0,-0.899993896484 2.0,-2.0 c 0.0,0.0 0.0,-24.0 0.0,-24.0 c 0.0,-1.10000610352 -0.899993896484,-2.0 -2.0,-2.0 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_2_outlines" android:translateX="32.0" android:translateY="24.0">
+        <group android:name="layer_2_outlines_pivot" android:translateX="-14.25" android:translateY="-14.25">
+            <clip-path android:name="mask_3" android:pathData="M -1.75,-2.453125 c 0.0,0.0 0.0,32.703125 0.0,32.703125 c 0.0,0.0 32.0,0.0 32.0,0.0 c 0.0,0.0 0.0,-32.6953125 0.0,-32.6953125 c 0.0,0.0 -32.0,-0.0078125 -32.0,-0.0078125 Z" />
+            <group android:name="group_4" android:translateX="14.25" android:translateY="14.25">
+                <path android:name="path_4" android:fillColor="#ffffffff" android:pathData="M 12.0,-14.0 c 0.0,0.0 -24.0,0.0 -24.0,0.0 c 0.0,0.0 4.06300354004,4.0 4.06300354004,4.0 c 0.0,0.0 17.93699646,0.0 17.93699646,0.0 c 0.0,0.0 0.0,20.0 0.0,20.0 c 0.0,0.0 -20.0,0.0 -20.0,0.0 c 0.0,0.0 0.0,-20.0 0.0,-20.0 c 0.0,0.0 -2.0,-4.0 -2.0,-4.0 c -1.10000610352,0.0 -2.0,0.899993896484 -2.0,2.0 c 0.0,0.0 0.0,24.0 0.0,24.0 c 0.0,1.10000610352 0.899993896484,2.0 2.0,2.0 c 0.0,0.0 24.0,0.0 24.0,0.0 c 1.10000610352,0.0 2.0,-0.899993896484 2.0,-2.0 c 0.0,0.0 0.0,-24.0 0.0,-24.0 c 0.0,-1.10000610352 -0.899993896484,-2.0 -2.0,-2.0 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_3_outlines_2" android:translateX="64.0" android:translateY="24.0">
+        <group android:name="layer_3_outlines_2_pivot" android:translateX="-14.25" android:translateY="-14.25">
+            <clip-path android:name="mask_4" android:pathData="M -7.75,-2.46875 c 0.0,0.0 0.0,32.703125 0.0,32.703125 c 0.0,0.0 4.0625,-0.015625 4.0625,-0.015625 c 0.0,0.0 0.0,-32.6953125 0.0,-32.6953125 c 0.0,0.0 -4.0625,0.0078125 -4.0625,0.0078125 Z" />
+            <group android:name="group_5" android:translateX="14.25" android:translateY="14.25">
+                <path android:name="path_5" android:fillColor="#ffffffff" android:pathData="M 12.0,-14.0 c 0.0,0.0 -25.99609375,0.0 -25.99609375,0.0 c 0.0,0.0 -0.00390625,0.0 -0.00390625,0.0 c 0.0,0.0 0.0,28.0 0.0,28.0 c 0.0,0.0 0.0,0.0 0.0,0.0 c 0.0,0.0 26.0,0.0 26.0,0.0 c 0.0,0.0 -4.06199645996,-4.0 -4.06199645996,-4.0 c 0.0,0.0 -17.93800354,0.0 -17.93800354,0.0 c 0.0,0.0 5.0,-6.30000305176 5.0,-6.30000305176 c 0.0,0.0 3.56999206543,4.30000305176 3.56999206543,4.30000305176 c 0.0,0.0 5.00001525879,-6.44000244141 5.00001525879,-6.44000244141 c 0.0,0.0 6.42999267578,8.44000244141 6.42999267578,8.44000244141 c 0.0,0.0 2.0,4.0 2.0,4.0 c 1.10000610352,0.0 2.0,-0.899993896484 2.0,-2.0 c 0.0,0.0 0.0,-24.0 0.0,-24.0 c 0.0,-1.10000610352 -0.899993896484,-2.0 -2.0,-2.0 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_2_outlines_2" android:translateX="64.0" android:translateY="24.0">
+        <group android:name="layer_2_outlines_2_pivot" android:translateX="-14.25" android:translateY="-14.25">
+            <clip-path android:name="mask_5" android:pathData="M -7.75,-2.46875 c 0.0,0.0 0.0,32.703125 0.0,32.703125 c 0.0,0.0 4.0625,-0.015625 4.0625,-0.015625 c 0.0,0.0 0.0,-32.6953125 0.0,-32.6953125 c 0.0,0.0 -4.0625,0.0078125 -4.0625,0.0078125 Z" />
+            <group android:name="group_6" android:translateX="14.25" android:translateY="14.25">
+                <path android:name="path_6" android:fillColor="#ffffffff" android:pathData="M 12.0,-14.0 c 0.0,0.0 -24.0,0.0 -24.0,0.0 c 0.0,0.0 4.06300354004,4.0 4.06300354004,4.0 c 0.0,0.0 17.93699646,0.0 17.93699646,0.0 c 0.0,0.0 0.0,20.0 0.0,20.0 c 0.0,0.0 -20.0,0.0 -20.0,0.0 c 0.0,0.0 0.0,-20.0 0.0,-20.0 c 0.0,0.0 -2.0,-4.0 -2.0,-4.0 c -1.10000610352,0.0 -2.0,0.899993896484 -2.0,2.0 c 0.0,0.0 0.0,24.0 0.0,24.0 c 0.0,1.10000610352 0.899993896484,2.0 2.0,2.0 c 0.0,0.0 24.0,0.0 24.0,0.0 c 1.10000610352,0.0 2.0,-0.899993896484 2.0,-2.0 c 0.0,0.0 0.0,-24.0 0.0,-24.0 c 0.0,-1.10000610352 -0.899993896484,-2.0 -2.0,-2.0 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

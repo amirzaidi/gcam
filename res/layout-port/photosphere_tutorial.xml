@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/refocus_tutorial" android:background="@color/fullscreen_dialog_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@id/photosphere_tutorial_title" android:paddingLeft="15.0dip" android:paddingTop="45.0dip" android:paddingRight="15.0dip" android:paddingBottom="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/keep_the_camera_centered" android:layout_weight="0.0" style="@style/fullscreen_dialog_title" />
+    <include layout="@layout/photosphere_tutorial_slide1" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/next_button" android:layout_marginBottom="84.0dip" android:layout_weight="0.0" style="@style/BlueButton" />
+</LinearLayout>

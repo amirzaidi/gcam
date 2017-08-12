@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">Išsaugota %1$d nuotraukų</item>
+        <item quantity="one">Išsaugota %1$d nuotrauka</item>
+        <item quantity="few">Išsaugotos %1$d nuotraukos</item>
+        <item quantity="many">Išsaugota %1$d nuotraukos</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">Išsaugota %1$d geriausių nuotraukų</item>
+        <item quantity="one">Išsaugota %1$d geriausia nuotrauka</item>
+        <item quantity="few">Išsaugotos %1$d geriausios nuotraukos</item>
+        <item quantity="many">Išsaugota %1$d geriausios nuotraukos</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Serija (%d nuotraukų)</item>
+        <item quantity="one">Serija (%d nuotrauka)</item>
+        <item quantity="few">Serija (%d nuotraukos)</item>
+        <item quantity="many">Serija (%d nuotraukos)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d veidų.</item>
+        <item quantity="one">%1$d veidas.</item>
+        <item quantity="few">%1$d veidai.</item>
+        <item quantity="many">%1$d veido.</item>
+    </plurals>
+</resources>

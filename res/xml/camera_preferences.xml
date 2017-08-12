@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orderingFromXml="true" android:key="prefscreen_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_general" android:key="pref_category_general">
+        <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_camera_save_location_title" android:key="pref_camera_recordlocation_key" android:defaultValue="false" />
+        <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_camera_sounds_title" android:key="pref_camera_sounds_key" android:defaultValue="true" />
+        <ListPreference android:entries="@array/pref_volume_action_entries" android:title="@string/pref_camera_volume_key_action_title" android:key="pref_volume_key_action" android:summary="%s" android:defaultValue="@string/volume_key_shutter" android:entryValues="@array/pref_volume_action_entryvalues" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/photo" android:key="pref_category_resolution_camera">
+        <ListPreference android:title="@string/setting_back_camera_photo" android:key="pref_camera_picturesize_back_key" android:summary="%s" android:defaultValue="@string/pref_camera_picturesize_default" android:entryValues="@array/pref_camera_picturesize_entryvalues" />
+        <ListPreference android:title="@string/setting_front_camera_photo" android:key="pref_camera_picturesize_front_key" android:summary="%s" android:defaultValue="@string/pref_camera_picturesize_default" android:entryValues="@array/pref_camera_picturesize_entryvalues" />
+        <PreferenceScreen android:title="@string/pref_burst_settings" android:key="pref_category_smartburst">
+            <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_burst_title" android:key="pref_smartburst_classicburst" android:summary="@string/pref_smartburst_summary" android:defaultValue="true" />
+            <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_auto_generate_artifacts_toggle" android:key="pref_auto_generate_artifacts" android:defaultValue="true" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_category_advanced" android:key="pref_category_advanced">
+            <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_camera_dirty_lens_title" android:key="pref_camera_dirty_lens_key" android:defaultValue="true" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_experimental" android:key="pref_category_experimental">
+            <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_gcam_hdr_raw_title" android:key="pref_camera_hdr_plus_raw_out_key" android:summary="@string/pref_gcam_hdr_raw_summary" android:defaultValue="false" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/mode_video" android:key="pref_category_resolution_video">
+        <ListPreference android:title="@string/setting_back_camera_video" android:key="pref_video_quality_back_key" android:summary="%s" android:defaultValue="@string/pref_video_quality_large" android:entryValues="@array/pref_video_quality_entryvalues" />
+        <ListPreference android:title="@string/setting_front_camera_video" android:key="pref_video_quality_front_key" android:summary="%s" android:defaultValue="@string/pref_video_quality_large" android:entryValues="@array/pref_video_quality_entryvalues" />
+        <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:title="@string/pref_video_stabilization" android:key="pref_video_stabilization_key" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_google_help_and_feedback" android:key="pref_category_help_and_feedback">
+        <Preference android:title="@string/setting_google_feedback" android:key="pref_launch_feedback" />
+        <Preference android:title="@string/setting_google_help" android:key="pref_launch_help" />
+        <PreferenceScreen android:title="@string/pref_developer_settings" android:key="pref_category_developer" />
+    </PreferenceCategory>
+</PreferenceScreen>

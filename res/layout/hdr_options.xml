@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/hdr_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/hdr_off" optionsbar:camera_option_label="@string/hdr_off_desc" optionsbar:camera_option_icon="@drawable/ic_hdr_plus_expanded_off" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/hdr_auto" optionsbar:camera_option_label="@string/hdr_auto_desc" optionsbar:camera_option_icon="@drawable/ic_hdr_plus_expanded_auto" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/hdr_on" optionsbar:camera_option_label="@string/hdr_on_desc" optionsbar:camera_option_icon="@drawable/ic_hdr_plus_expanded_on" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+</LinearLayout>

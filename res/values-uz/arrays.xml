@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Panoramani ko‘rish</item>
+        <item>Yuborish</item>
+        <item>Google Xaritalarga ruxsat berish</item>
+        <item>Yumaloq panorama yaratish</item>
+        <item>O‘chirish</item>
+        <item>Tuzatish uchun yuborish</item>
+        <item>Panorama yaratish</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Panorama yaratish</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d слика је сачувано</item>
+        <item quantity="one">%1$d слика је сачувана</item>
+        <item quantity="few">%1$d слике су сачуване</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d најбољих слика је сачувано</item>
+        <item quantity="one">%1$d најбоља слика је сачувана</item>
+        <item quantity="few">%1$d најбоље слике су сачуване</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Рафално снимање (%d слика)</item>
+        <item quantity="one">Рафално снимање (%d слика)</item>
+        <item quantity="few">Рафално снимање (%d слике)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d лица.</item>
+        <item quantity="one">%1$d лице.</item>
+        <item quantity="few">%1$d лица.</item>
+    </plurals>
+</resources>

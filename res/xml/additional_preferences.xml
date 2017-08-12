@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceCategory android:title="@string/pref_category_photo_sphere_and_panorama" android:key="_category_lightcycle_quality"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_lightcycle_quality_entries" android:title="@string/pref_title_photo_sphere_and_panorama_resolution" android:key="pref_lightcycle_quality_key" android:summary="%s" android:defaultValue="@string/camera_quality_high" android:entryValues="@array/pref_lightcycle_quality_entryvalues" />
+</PreferenceCategory>

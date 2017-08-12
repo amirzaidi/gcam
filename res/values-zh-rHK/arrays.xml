@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>檢視全景</item>
+        <item>分享全景</item>
+        <item>與地圖分享</item>
+        <item>建立蟲視視角全景</item>
+        <item>刪除</item>
+        <item>傳送給小組除錯</item>
+        <item>合併成全景</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>合併成全景</item>
+    </string-array>
+</resources>

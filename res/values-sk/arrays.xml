@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Zobraziť panorámu</item>
+        <item>Zdieľať panorámu</item>
+        <item>Zdieľať s aplikáciou Mapy</item>
+        <item>Vytvoriť malú planétu</item>
+        <item>Odstrániť</item>
+        <item>Odoslať tímu na ladenie</item>
+        <item>Spojiť panorámu</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Spojiť panorámu</item>
+    </string-array>
+</resources>

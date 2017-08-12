@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Žiūrėti panoramą</item>
+        <item>Bendrinti panoramą</item>
+        <item>Bendrinti su Žemėlapiais</item>
+        <item>Kurti nedidelę planetą</item>
+        <item>Ištrinti</item>
+        <item>Siųsti komandai, kad suderintų</item>
+        <item>Sukabinti panoramą</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Sukabinti panoramą</item>
+    </string-array>
+</resources>

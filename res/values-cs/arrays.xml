@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Zobrazit panorama</item>
+        <item>Sdílet panorama</item>
+        <item>Sdílet s Mapami</item>
+        <item>Vytvořit malou planetu</item>
+        <item>Smazat</item>
+        <item>Odeslat týmu pro ladění</item>
+        <item>Spojit panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Spojit panorama</item>
+    </string-array>
+</resources>

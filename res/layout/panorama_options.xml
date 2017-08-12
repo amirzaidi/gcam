@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="horizontal" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/panorama_horizontal" android:src="@drawable/quantum_ic_panorama_horizontal_white_24" android:contentDescription="@string/panorama_horizontal_desc" style="@style/options_bar_rightside_option" />
+    <ImageButton android:id="@id/panorama_vertical" android:src="@drawable/quantum_ic_panorama_vertical_white_24" android:contentDescription="@string/panorama_vertical_desc" style="@style/options_bar_rightside_option" />
+    <ImageButton android:id="@id/panorama_wide_angle" android:src="@drawable/quantum_ic_panorama_wide_angle_white_24" android:contentDescription="@string/panorama_wide_desc" style="@style/options_bar_rightside_option" />
+    <ImageButton android:id="@id/panorama_fish_eye" android:src="@drawable/quantum_ic_panorama_fish_eye_white_24" android:contentDescription="@string/panorama_fish_eye_desc" style="@style/options_bar_rightside_option" />
+</LinearLayout>

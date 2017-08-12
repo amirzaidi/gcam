@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d 枚の写真を保存しました</item>
+        <item quantity="one">%1$d 枚の写真を保存しました</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d 枚のベストショットを保存しました</item>
+        <item quantity="one">%1$d 枚のベストショットを保存しました</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">バースト（%d 枚の写真）</item>
+        <item quantity="one">バースト（%d 枚の写真）</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d 個の顔があります。</item>
+        <item quantity="one">%1$d 個の顔があります。</item>
+    </plurals>
+</resources>

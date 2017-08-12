@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>View panorama</item>
+        <item>Share panorama</item>
+        <item>Share with Maps</item>
+        <item>Create little planet</item>
+        <item>Delete</item>
+        <item>Send to team for debugging</item>
+        <item>Stitch panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Stitch panorama</item>
+    </string-array>
+</resources>

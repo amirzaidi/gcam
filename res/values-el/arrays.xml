@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Προβολή πανοράματος</item>
+        <item>Κοινή χρήση πανοράματος</item>
+        <item>Κοινή χρήση με τους Χάρτες</item>
+        <item>Δημιουργία μικρού πλανήτη</item>
+        <item>Διαγραφή</item>
+        <item>Αποστολή στην ομάδα για εντοπισμό σφαλμάτων</item>
+        <item>Συρραφή πανοράματος</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Συρραφή πανοράματος</item>
+    </string-array>
+</resources>

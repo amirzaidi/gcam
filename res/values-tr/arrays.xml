@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Panoramayı görüntüle</item>
+        <item>Panoramayı paylaş</item>
+        <item>Google Haritalar ile paylaş</item>
+        <item>Küçük gezegen oluştur</item>
+        <item>Sil</item>
+        <item>Hata ayıklama için ekibe gönder</item>
+        <item>Panoramayı birleştir</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Panoramayı birleştir</item>
+    </string-array>
+</resources>

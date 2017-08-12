@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Панорамалық көрініс</item>
+        <item>Панорамамен бөлісу</item>
+        <item>Карталармен бөлісу</item>
+        <item>Кішкене планета жасау</item>
+        <item>Жою</item>
+        <item>Жөндеу үшін топқа жіберу</item>
+        <item>Панораманы жасақтау</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Панораманы жасақтау</item>
+    </string-array>
+</resources>

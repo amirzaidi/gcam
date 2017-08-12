@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="burst_chip">
+        <item quantity="other">%1$d fotot salvestati</item>
+        <item quantity="one">%1$d foto salvestati</item>
+    </plurals>
+    <plurals name="burst_chip_best">
+        <item quantity="other">%1$d parimat fotot on salvestatud</item>
+        <item quantity="one">%1$d parim foto on salvestatud</item>
+    </plurals>
+    <plurals name="burst_overlay">
+        <item quantity="other">Sarivõte (%d fotot)</item>
+        <item quantity="one">Sarivõte (%d foto)</item>
+    </plurals>
+    <plurals name="number_of_faces_announcement">
+        <item quantity="other">%1$d nägu.</item>
+        <item quantity="one">%1$d nägu.</item>
+    </plurals>
+</resources>

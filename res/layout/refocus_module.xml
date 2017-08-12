@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/shutter_view" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/module_preview_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.refocus.RefocusProgressView android:layout_gravity="center" android:id="@id/refocus_progress" android:layout_width="100.0dip" android:layout_height="150.0dip" />
+        <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="center|top" android:layout_gravity="center|top" android:id="@id/refocus_instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="44.0dip" android:layout_marginRight="16.0dip" android:text="@string/refocus_instructions" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:textAlignment="center" />
+        <ImageView android:layout_gravity="center" android:id="@id/refocus_success_indicator" android:layout_width="200.0dip" android:layout_height="wrap_content" android:src="@drawable/refocus_successful" />
+    </FrameLayout>
+</FrameLayout>

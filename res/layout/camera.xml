@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.camera.legacy.app.ui.CameraAppRootLayout android:id="@id/camera_app_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/capture_overlay_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.apps.camera.legacy.app.ui.focus.FocusRingView android:id="@id/focus_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.google.android.apps.camera.faceboxes.FaceView android:id="@id/face_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.google.android.apps.camera.gridlines.view.GridLinesUi android:layout_gravity="center_horizontal" android:id="@id/grid_lines" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/module_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.google.android.apps.camera.legacy.app.ui.CaptureAnimationOverlay android:id="@id/capture_animation_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.google.android.apps.camera.focusindicator.FocusIndicatorView android:id="@id/focus_indicator_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.google.android.apps.camera.uiutils.ReplaceableView android:id="@id/iris_overlay" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <View android:id="@id/preview_scrim" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/burst_chip_holder" android:layout_width="fill_parent" android:layout_height="@dimen/burst_chip_holder_height">
+            <com.google.android.apps.camera.burstchip.BurstChip android:layout_gravity="center" android:id="@id/burst_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/controls_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.apps.camera.legacy.app.ui.toyboxmenu.ToyboxDrawerLayout android:id="@id/toybox_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false">
+                <com.google.android.apps.camera.progressoverlay.ProgressOverlay android:id="@id/progress_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.google.android.apps.camera.legacy.app.ui.PreviewOverlay android:id="@id/preview_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.google.android.apps.camera.optionsbar.view.OptionsBarWidget android:id="@id/optionsbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.google.android.apps.camera.uiutils.ReplaceableView android:id="@id/notification_chip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                    <com.google.android.apps.camera.evcomp.EvCompView android:id="@id/evcomp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <com.google.android.apps.camera.zoomui.ZoomUi android:id="@id/zoom_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_ui_height" android:layout_alignParentBottom="true" />
+                    <include android:visibility="gone" layout="@layout/video_swipe_hint" />
+                    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/optionsbar" android:layout_alignParentEnd="true" layout="@layout/accessibility_affordances" />
+                </RelativeLayout>
+                <ListView android:layout_gravity="start" android:id="@id/toybox_drawer_list" android:paddingTop="@dimen/toybox_menu_top_margin" android:layout_width="@dimen/toybox_menu_width" android:layout_height="fill_parent" android:listSelector="@drawable/toybox_list_background" android:divider="@null" />
+            </com.google.android.apps.camera.legacy.app.ui.toyboxmenu.ToyboxDrawerLayout>
+            <com.google.android.apps.camera.uiutils.FadeRotationFrameLayout android:id="@id/menu_button_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/closeButton" android:background="@null" android:padding="@dimen/close_button_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/accessibility_close_button" />
+                <com.google.android.apps.camera.legacy.app.ui.toyboxmenu.ToyboxMenuButton android:id="@id/toybox_menu_button" android:background="@null" android:padding="@dimen/hamburger_menu_left_and_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/hamburger_menu_open" />
+            </com.google.android.apps.camera.uiutils.FadeRotationFrameLayout>
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:id="@id/advice_snackbar_wrapper" android:paddingLeft="@dimen/snackbar_left" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/advice_snackbar_viewstub" android:layout="@layout/advice_snackbar" android:inflatedId="@id/advice_snackbar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.google.android.apps.camera.uiutils.ReplaceableView android:id="@id/fullscreen_selfie_flash" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.apps.camera.legacy.app.ui.CameraAppRootLayout>
+</FrameLayout>

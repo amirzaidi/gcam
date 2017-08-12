@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s memerlukan satu atau beberapa perkhidmatan Google Play yang tidak tersedia pada masa ini. Sila hubungi pembangun untuk mendapatkan bantuan.</string>
+    <string name="common_google_play_services_enable_button">Dayakan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s tidak akan berfungsi melainkan anda mendayakan perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_enable_title">Dayakan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_install_button">Dapatkan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tiada pada telefon anda.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tiada pada tablet anda.</string>
+    <string name="common_google_play_services_install_title">Dapatkan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Akaun yang dinyatakan tidak wujud pada peranti ini. Sila pilih akaun yang lain.</string>
+    <string name="common_google_play_services_invalid_account_title">Akaun Tidak Sah</string>
+    <string name="common_google_play_services_network_error_text">Sambungan data diperlukan untuk menyambung ke perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Ralat Rangkaian</string>
+    <string name="common_google_play_services_notification_ticker">Ralat perkhidmatan Google Play</string>
+    <string name="common_google_play_services_restricted_profile_text">Tidak menyokong akses akaun daripada profil terhad.</string>
+    <string name="common_google_play_services_restricted_profile_title">Profil Terhad</string>
+    <string name="common_google_play_services_sign_in_failed_text">Ralat log masuk ke akaun yang dinyatakan. Sila pilih akaun lain.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Gagal log masuk</string>
+    <string name="common_google_play_services_unknown_issue">%1$s menghadapi masalah dengan perkhidmatan Google Play. Jika masalah berterusan, sila hubungi pembangun untuk mendapatkan bantuan.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s bergantung pada perkhidmatan Google Play, yang tidak disokong oleh peranti anda. Hubungi pengeluar untuk mendapatkan bantuan.</string>
+    <string name="common_google_play_services_unsupported_title">Perkhidmatan Google Play</string>
+    <string name="common_google_play_services_update_button">Kemas kini</string>
+    <string name="common_google_play_services_update_text">%1$s tidak akan berfungsi melainkan anda mengemaskinikan perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_update_title">Kemaskinikan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini sedang dikemaskinikan.</string>
+    <string name="common_google_play_services_updating_title">Perkhidmatan Google Play sdg dikemaskini</string>
+    <string name="common_google_play_services_wear_update_text">Versi baharu perkhidmatan Google Play diperlukan. Kemas kini automatik akan dijalankan sebentar lagi.</string>
+    <string name="common_open_on_phone">Buka pada telefon</string>
+    <string name="common_signin_button_text">Log masuk</string>
+    <string name="common_signin_button_text_long">Log masuk dengan Google</string>
+    <string name="place_autocomplete_clear_button">Kosongkan carian</string>
+    <string name="place_autocomplete_search_hint">Cari</string>
+</resources>

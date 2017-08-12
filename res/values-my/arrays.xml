@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>မြင်ကွင်းကျယ်ကြည့်ရန်</item>
+        <item>မြင်ကွယ်ကျယ်အားမျှဝေပါ</item>
+        <item>မြေပုံးများနဲ့ မျှဝေရန်</item>
+        <item>ဂြိုလ်သေးလေးပြုလုပ်ရန်</item>
+        <item>ဖျက်ရန်</item>
+        <item>အမှားရှာရန် အဖွဲ့သို့ ပို့ပါ</item>
+        <item>မြင်ကွင်းကျယ် ပြုလုပ်ရန်</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>မြင်ကွင်းကျယ် ပြုလုပ်ရန်</item>
+    </string-array>
+</resources>

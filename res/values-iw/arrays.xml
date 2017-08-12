@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>הצג בפנורמה</item>
+        <item>שתף פנורמה</item>
+        <item>‏שתף באמצעות מפות Google</item>
+        <item>צור פלנטה קטנה</item>
+        <item>מחק</item>
+        <item>שלח לצוות לניפוי</item>
+        <item>חבר פנורמה</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>חבר פנורמה</item>
+    </string-array>
+</resources>

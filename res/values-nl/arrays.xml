@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Panorama weergeven</item>
+        <item>Panorama delen</item>
+        <item>Delen met Maps</item>
+        <item>Kleine planeet maken</item>
+        <item>Verwijderen</item>
+        <item>Verzenden naar team voor foutopsporing</item>
+        <item>Panorama samenvoegen</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Panorama samenvoegen</item>
+    </string-array>
+</resources>

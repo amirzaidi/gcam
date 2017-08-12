@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarTwoLineItem">
+        <item name="android:background">?android:activatedBackgroundIndicator</item>
+    </style>
+    <style name="Theme.GalleryBase" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="switchStyle">@android:style/Widget.CompoundButton</item>
+    </style>
+</resources>

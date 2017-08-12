@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.camera.legacy.app.widget.BurstItemView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/burst_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/burst_center_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_badge_burst" />
+</com.google.android.apps.camera.legacy.app.widget.BurstItemView>

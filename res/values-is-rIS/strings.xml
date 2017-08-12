@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s krefst einhverrar Google Play þjónustu sem ekki er tiltæk sem stendur. Hafðu samband við þróunaraðilann til að fá aðstoð.</string>
+    <string name="common_google_play_services_enable_button">Virkja þjónustu Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s virkar ekki nema þú gerir þjónustu Google Play virka.</string>
+    <string name="common_google_play_services_enable_title">Virkja þjónustu Google Play</string>
+    <string name="common_google_play_services_install_button">Sækja þjónustu Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s getur ekki keyrt án þjónustu Google Play, sem vantar í símann þinn.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s getur ekki keyrt án þjónustu Google Play, sem vantar í spjaldtölvuna þína.</string>
+    <string name="common_google_play_services_install_title">Sækja þjónustu Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Tilgreindur reikningur er ekki til staðar í þessu tæki. Veldu annan reikning.</string>
+    <string name="common_google_play_services_invalid_account_title">Ógildur reikningur</string>
+    <string name="common_google_play_services_network_error_text">Gagnatengingar er krafist til að tengjast þjónustu Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Netvilla</string>
+    <string name="common_google_play_services_notification_ticker">Villa í þjónustu Google Play</string>
+    <string name="common_google_play_services_restricted_profile_text">Ekki er stuðningur við aðgang að reikningum af takmörkuðu sniði.</string>
+    <string name="common_google_play_services_restricted_profile_title">Takmarkað snið</string>
+    <string name="common_google_play_services_sign_in_failed_text">Villa við að skrá tilgreindan reikning inn. Veldu annan reikning.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Innskráning mistókst</string>
+    <string name="common_google_play_services_unknown_issue">%1$s á í vandræðum með þjónustu Google Play. Ef vandamálið heldur áfram skaltu hafa samband við þróunaraðilann til að fá aðstoð.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s reiðir sig á þjónustu Google Play, sem er ekki studd í tækinu þínu. Hafðu samband við framleiðandann til að fá aðstoð.</string>
+    <string name="common_google_play_services_unsupported_title">Þjónusta Google Play</string>
+    <string name="common_google_play_services_update_button">Uppfæra</string>
+    <string name="common_google_play_services_update_text">%1$s getur ekki keyrt nema þú uppfærir þjónustu Google Play.</string>
+    <string name="common_google_play_services_update_title">Uppfæra þjónustu Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s getur ekki keyrt án þjónustu Google Play, sem verið er að uppfæra.</string>
+    <string name="common_google_play_services_updating_title">Verið er að uppfæra þjónustu Google Play</string>
+    <string name="common_google_play_services_wear_update_text">Nýja útgáfu af þjónustu Google Play vantar. Hún uppfærir sig sjálf innan skamms.</string>
+    <string name="common_open_on_phone">Opna í símanum</string>
+    <string name="common_signin_button_text">Skrá inn</string>
+    <string name="common_signin_button_text_long">Skrá inn með Google</string>
+    <string name="place_autocomplete_clear_button">Hreinsa leit</string>
+    <string name="place_autocomplete_search_hint">Leita</string>
+</resources>

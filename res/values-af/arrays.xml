@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gallery_item_actions_stitched">
+        <item>Bekyk panorama</item>
+        <item>Deel panorama</item>
+        <item>Deel met Maps</item>
+        <item>Skep klein planeet</item>
+        <item>Vee uit</item>
+        <item>Stuur na span vir ontfouting</item>
+        <item>Verweef panorama</item>
+    </string-array>
+    <string-array name="gallery_item_actions_unstitched">
+        <item>Verweef panorama</item>
+    </string-array>
+</resources>

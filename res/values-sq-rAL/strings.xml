@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s kërkon një ose më shumë shërbime të \"Luaj me Google\" që aktualisht janë të papërdorshme. Kontakto me zhvilluesin për ndihmë.</string>
+    <string name="common_google_play_services_enable_button">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_enable_text">%1$s nuk do të funksionojë nëse nuk aktivizon shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_enable_title">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_install_button">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_install_text_phone">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat mungojnë në telefonin tënd.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat mungojnë në tabletin tënd.</string>
+    <string name="common_google_play_services_install_title">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_invalid_account_text">Llogaria e specifikuar nuk ekziston në këtë pajisje. Zgjidh një llogari tjetër.</string>
+    <string name="common_google_play_services_invalid_account_title">Llogari e pavlefshme</string>
+    <string name="common_google_play_services_network_error_text">"Kërkohet një lidhje të dhënash për t'u lidhur me shërbimet e \"Luaj me Google\"."</string>
+    <string name="common_google_play_services_network_error_title">Gabim rrjeti</string>
+    <string name="common_google_play_services_notification_ticker">Gabim në shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_restricted_profile_text">Qasja në llogaritë me profil të kufizuar nuk mbështetet.</string>
+    <string name="common_google_play_services_restricted_profile_title">Profil i kufizuar</string>
+    <string name="common_google_play_services_sign_in_failed_text">Gabim gjatë identifikimit në llogarinë e specifikuar. Zgjidh një llogari tjetër.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Identifikimi dështoi</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ka probleme me shërbimet e \"Luaj me Google\". Nëse problemi vazhdon, kontakto me zhvilluesin për ndihmë.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s mbështetet në shërbimet e \"Luaj me Google\", të cilat nuk mbështeten nga pajisja jote. Kontakto me prodhuesin për ndihmë.</string>
+    <string name="common_google_play_services_unsupported_title">Shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_update_button">Përditëso</string>
+    <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_updating_title">Shërbimet e \"Luaj me Google\" po përditësohen</string>
+    <string name="common_google_play_services_wear_update_text">Nevojitet një version i ri i shërbimeve të \"Luaj me Google\". Ai do të përditësohet automatikisht së shpejti.</string>
+    <string name="common_open_on_phone">Hape në telefon</string>
+    <string name="common_signin_button_text">Identifikohu</string>
+    <string name="common_signin_button_text_long">Identifikohu me Google</string>
+    <string name="place_autocomplete_clear_button">Pastro kërkimin</string>
+    <string name="place_autocomplete_search_hint">Kërko</string>
+</resources>
